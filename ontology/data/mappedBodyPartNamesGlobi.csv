@@ -183,3 +183,21 @@ vena cava,vena cava,http://purl.obolibrary.org/obo/UBERON_0004087,1.0000
 ventral colon,transverse colon,http://purl.obolibrary.org/obo/UBERON_0001157,0.7353
 ventriculus,cardiac ventricle,http://purl.obolibrary.org/obo/UBERON_0002082,0.8507
 visceral ligaments,visceral fascia,http://purl.obolibrary.org/obo/UBERON_0011237,0.7516
+Bones,arm bone,http://purl.obolibrary.org/obo/UBERON_0003460,0.8000
+bud;flower,flower bud,http://purl.obolibrary.org/obo/PO_0000056,0.8366
+bud;seed;vegetation,reproductive bud,http://purl.obolibrary.org/obo/PO_0025084,0.7141
+flower;bud;vegetation,flower bud,http://purl.obolibrary.org/obo/PO_0000056,0.8045
+fruit,fruit,http://purl.obolibrary.org/obo/PO_0009001,1.0000
+fruit;seed,fruit,http://purl.obolibrary.org/obo/PO_0009001,0.8028
+gall,Gallus,http://purl.obolibrary.org/obo/NCBITaxon_9030,0.8370
+scale,scale,http://purl.obolibrary.org/obo/UBERON_0002542,1.0000
+test,testa,http://purl.obolibrary.org/obo/PO_0020057,0.6881
+tube (fleshy),tube,http://purl.obolibrary.org/obo/UBERON_0000025,0.7827
+vegetation,vegetation layer,http://purl.obolibrary.org/obo/ENVO_01000355,0.7481
+vegetation;flower,flower,http://purl.obolibrary.org/obo/PO_0009046,0.7681
+house,house,http://purl.obolibrary.org/obo/ENVO_01000417,1.0000
+NEEDLE,hypodermic needle,http://purl.obolibrary.org/obo/ENVO_02000000,0.6696
+operculum,parietal operculum,http://purl.obolibrary.org/obo/UBERON_0002911,0.8645
+root,root,http://purl.obolibrary.org/obo/NCBITaxon_1,1.0000
+UNKNOWN,obsolete unspecified,http://purl.obolibrary.org/obo/UBERON_0006336,0.4590
+WOOD,wood,http://purl.obolibrary.org/obo/ENVO_00002040,1.0000
