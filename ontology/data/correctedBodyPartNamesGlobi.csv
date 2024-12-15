@@ -189,11 +189,11 @@ vegetation,vegetation layer,http://purl.obolibrary.org/obo/ENVO_01000355,
 fruit,fruit,http://purl.obolibrary.org/obo/PO_0009001,
 gall,plant gall,http://purl.obolibrary.org/obo/PO_0025626,
 scale,scale,http://purl.obolibrary.org/obo/UBERON_0002542,
-#test,testa,http://purl.obolibrary.org/obo/PO_0020057,0.6881,#two organisms match - Echinodermata and Foraminifera the former different from the latter- a protist.
+#test,testa,http://purl.obolibrary.org/obo/PO_0020057,#two organisms match - Echinodermata and Foraminifera the former different from the latter- a protist.
 #tube (fleshy),tube,http://purl.obolibrary.org/obo/UBERON_0000025,#Annelida is the organism matching the tube of which is mineralized.
 house,house,http://purl.obolibrary.org/obo/ENVO_01000417,
 NEEDLE,vascular leaf,http://purl.obolibrary.org/obo/PO_0009025,
 #operculum,parietal operculum,http://purl.obolibrary.org/obo/UBERON_0002911,#The organism matched is Gastropoda so definitely not related to parietal.
-root,root,http://purl.obolibrary.org/obo/NCBITaxon_1,
+root,root,http://purl.obolibrary.org/obo/PO_0009005,
 #UNKNOWN,obsolete unspecified,http://purl.obolibrary.org/obo/UBERON_0006336,
 WOOD,wood,http://purl.obolibrary.org/obo/ENVO_00002040,
