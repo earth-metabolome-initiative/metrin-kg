@@ -141,7 +141,7 @@ right cranial sinus,frontal sinus,http://purl.obolibrary.org/obo/UBERON_0001760,
 rumen,rumen,http://purl.obolibrary.org/obo/UBERON_0007365,
 rumen,rumen,http://purl.obolibrary.org/obo/UBERON_0007365,
 omasum,omasum,http://purl.obolibrary.org/obo/UBERON_0007362,
-reticulum,ruminant reticulum,http://purl.obolibrary.org/obo/UBERON_0007361
+reticulum,ruminant reticulum,http://purl.obolibrary.org/obo/UBERON_0007361,
 saliva,saliva,http://purl.obolibrary.org/obo/UBERON_0001836,
 #oronasopharynx,nasopharynx,http://purl.obolibrary.org/obo/UBERON_0001728,
 sinus(es),set of paranasal sinuses,http://purl.obolibrary.org/obo/FMA_76587,
@@ -158,7 +158,7 @@ spleen,spleen,http://purl.obolibrary.org/obo/UBERON_0002106,
 liver,liver,http://purl.obolibrary.org/obo/UBERON_0002107,
 #stifle region,spatial region,http://purl.obolibrary.org/obo/BFO_0000006,#the organism match is bovine
 stomach,stomach,http://purl.obolibrary.org/obo/UBERON_0000945,
-stomach,#1,stomach,http://purl.obolibrary.org/obo/UBERON_0000945
+stomach,#1,stomach,http://purl.obolibrary.org/obo/UBERON_0000945,
 stomach,stomach,http://purl.obolibrary.org/obo/UBERON_0000945,
 intestine,intestine,http://purl.obolibrary.org/obo/UBERON_0000160,
 stomach,stomach,http://purl.obolibrary.org/obo/UBERON_0000945,
