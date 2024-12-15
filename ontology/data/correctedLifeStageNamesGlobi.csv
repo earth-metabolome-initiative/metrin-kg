@@ -102,10 +102,10 @@ larva,larva,http://purl.obolibrary.org/obo/UBERON_0002548,
 Larva,larva,http://purl.obolibrary.org/obo/UBERON_0002548,
 larvae,larval,http://purl.obolibrary.org/obo/PATO_0001185,
 Larvae,larval,http://purl.obolibrary.org/obo/PATO_0001185,
-#larvae and adults,,, #maybe parse strings by ,;/and to incorporate multiple stages
+#larvae and adults,,, #maybe parse strings by comma;/and to incorporate multiple stages
 larval,larval,http://purl.obolibrary.org/obo/PATO_0001185,
 Larval,larval,http://purl.obolibrary.org/obo/PATO_0001185,
-#Larval & Pupa,,, #maybe parse strings by ,;/and to incorporate multiple stages
+#Larval & Pupa,,, #maybe parse strings by comma;/and to incorporate multiple stages
 larve,larval,http://purl.obolibrary.org/obo/PATO_0001185,
 last instar larva,instar larval stage,http://purl.obolibrary.org/obo/UBERON_0004730,
 leaves,leaf,http://purl.obolibrary.org/obo/PO_0025034,
