@@ -1,0 +1,186 @@
+Input Term,Best Match,URI,Similarity Score
+0+,gold(0),http://purl.obolibrary.org/obo/CHEBI_30050,0.5359
+0,gold(0),http://purl.obolibrary.org/obo/CHEBI_30050,0.5761
+I,well,http://purl.obolibrary.org/obo/ENVO_00000026,0.4871
+II,variant,http://purl.obolibrary.org/obo/PATO_0001227,0.4240
+III,occurrent,http://purl.obolibrary.org/obo/BFO_0000003,0.4432
+1 adult,adult organism,http://purl.obolibrary.org/obo/UBERON_0007023,0.5713
+1 Adult,adult organism,http://purl.obolibrary.org/obo/UBERON_0007023,0.5713
+1 Pupa,pupa,http://purl.obolibrary.org/obo/UBERON_0003143,0.8020
+A,anus,http://purl.obolibrary.org/obo/UBERON_0001245,0.5547
+Acanthella,Acrididea,http://purl.obolibrary.org/obo/NCBITaxon_1955150,0.6656
+active,open,http://purl.obolibrary.org/obo/PATO_0000610,0.5336
+adolescaria,Eupercaria,http://purl.obolibrary.org/obo/NCBITaxon_1489922,0.6682
+adult,adult organism,http://purl.obolibrary.org/obo/UBERON_0007023,0.7024
+adult;;,adult organism,http://purl.obolibrary.org/obo/UBERON_0007023,0.5908
+adult?,adult organism,http://purl.obolibrary.org/obo/UBERON_0007023,0.6171
+Adult,adult organism,http://purl.obolibrary.org/obo/UBERON_0007023,0.7024
+adult; adult,adult organism,http://purl.obolibrary.org/obo/UBERON_0007023,0.6878
+adult; adult; egg,adult organism,http://purl.obolibrary.org/obo/UBERON_0007023,0.6746
+adult; adult; immature,adult organism,http://purl.obolibrary.org/obo/UBERON_0007023,0.6786
+adult; adult; larvae,adult organism,http://purl.obolibrary.org/obo/UBERON_0007023,0.7274
+adult,adult organism,http://purl.obolibrary.org/obo/UBERON_0007023,0.7024
+chick,breast feather,http://purl.obolibrary.org/obo/UBERON_0018538,0.5266
+adult; egg,adult organism,http://purl.obolibrary.org/obo/UBERON_0007023,0.6674
+adult female,adult organism,http://purl.obolibrary.org/obo/UBERON_0007023,0.6396
+adult,adult organism,http://purl.obolibrary.org/obo/UBERON_0007023,0.7024
+juvenile,juvenile,http://purl.obolibrary.org/obo/PATO_0001190,1.0000
+adult; juvenile,juvenile,http://purl.obolibrary.org/obo/PATO_0001190,0.8917
+adult,adult organism,http://purl.obolibrary.org/obo/UBERON_0007023,0.7024
+larva,larva,http://purl.obolibrary.org/obo/UBERON_0002548,1.0000
+Adult,adult organism,http://purl.obolibrary.org/obo/UBERON_0007023,0.7024
+Larval,larval,http://purl.obolibrary.org/obo/PATO_0001185,1.0000
+adult male,adult organism,http://purl.obolibrary.org/obo/UBERON_0007023,0.6523
+adult,adult organism,http://purl.obolibrary.org/obo/UBERON_0007023,0.7024
+pupal case,pupal case,http://purl.obolibrary.org/obo/UBERON_0018657,1.0000
+adults,adult organism,http://purl.obolibrary.org/obo/UBERON_0007023,0.6245
+Adult(s),adult organism,http://purl.obolibrary.org/obo/UBERON_0007023,0.7052
+adults; juveniles,juvenile,http://purl.obolibrary.org/obo/PATO_0001190,0.8134
+age class 2+,age,http://purl.obolibrary.org/obo/PATO_0000011,0.6383
+Budding,flower bud,http://purl.obolibrary.org/obo/PO_0000056,0.7010
+calyptopis,calcaneus,http://purl.obolibrary.org/obo/UBERON_0001450,0.6671
+cercaria,cercaria,http://purl.obolibrary.org/obo/UBERON_0018388,1.0000
+Cercariae,cercaria,http://purl.obolibrary.org/obo/UBERON_0018388,0.9415
+cercariae; redia,cercaria,http://purl.obolibrary.org/obo/UBERON_0018388,0.8335
+chick,breast feather,http://purl.obolibrary.org/obo/UBERON_0018538,0.5266
+chick,breast feather,http://purl.obolibrary.org/obo/UBERON_0018538,0.5266
+adult,adult organism,http://purl.obolibrary.org/obo/UBERON_0007023,0.7024
+copepod,Copepoda,http://purl.obolibrary.org/obo/NCBITaxon_6830,0.8502
+COPEPODITE,Copepoda,http://purl.obolibrary.org/obo/NCBITaxon_6830,0.8624
+copepodite 1,copepodite stage 1,http://purl.obolibrary.org/obo/UBERON_8200002,0.8365
+copepodite 2,copepodite stage 2,http://purl.obolibrary.org/obo/UBERON_8200003,0.8574
+copepodite 3,copepodite stage 3,http://purl.obolibrary.org/obo/UBERON_8200004,0.8599
+copepodite 4,copepodite stage 4,http://purl.obolibrary.org/obo/UBERON_8200005,0.8550
+copepodite 5,copepodite stage 5,http://purl.obolibrary.org/obo/UBERON_8200006,0.8536
+copepodite 6,copepodite stage 6,http://purl.obolibrary.org/obo/UBERON_8200007,0.8677
+cyprid,Cyprinoidei,http://purl.obolibrary.org/obo/NCBITaxon_30727,0.7683
+CYPRIS,Cyprinoidei,http://purl.obolibrary.org/obo/NCBITaxon_30727,0.8316
+cyst,chalazal cyst,http://purl.obolibrary.org/obo/PO_0000201,0.6869
+cystacanth,Cyclostomata,http://purl.obolibrary.org/obo/NCBITaxon_1476529,0.6927
+Cystacanth,Cyclostomata,http://purl.obolibrary.org/obo/NCBITaxon_1476529,0.6927
+cysticercus,cysticercus stage,http://purl.obolibrary.org/obo/UBERON_0014856,0.8255
+deutonymph,deuteron,http://purl.obolibrary.org/obo/CHEBI_29233,0.6025
+early life stages,infant stage,http://purl.obolibrary.org/obo/UBERON_0034920,0.6770
+egg,egg yolk,http://purl.obolibrary.org/obo/UBERON_0007378,0.7787
+eggs,egg yolk,http://purl.obolibrary.org/obo/UBERON_0007378,0.7630
+embryo,embryo,http://purl.obolibrary.org/obo/UBERON_0000922,1.0000
+f1,ford,http://purl.obolibrary.org/obo/ENVO_00000411,0.5584
+f3,fomite,http://purl.obolibrary.org/obo/ENVO_00010358,0.5412
+f4,fomite,http://purl.obolibrary.org/obo/ENVO_00010358,0.5420
+f5,fomite,http://purl.obolibrary.org/obo/ENVO_00010358,0.5274
+f6,fomite,http://purl.obolibrary.org/obo/ENVO_00010358,0.5401
+female,female gamete,http://purl.obolibrary.org/obo/CL_0000675,0.6581
+Fertile,fertile lemma,http://purl.obolibrary.org/obo/PO_0009041,0.7132
+Flowering,flower,http://purl.obolibrary.org/obo/PO_0009046,0.8412
+Flowering and fruiting,flowering stage,http://purl.obolibrary.org/obo/PO_0007616,0.7070
+Flowering and Fruiting,flowering stage,http://purl.obolibrary.org/obo/PO_0007616,0.7070
+Fruiting,fruit,http://purl.obolibrary.org/obo/PO_0009001,0.8241
+fruits,fruit,http://purl.obolibrary.org/obo/PO_0009001,0.9398
+seeds,seed,http://purl.obolibrary.org/obo/PO_0009010,0.8922
+fry,oil,http://purl.obolibrary.org/obo/ENVO_00002985,0.5856
+fundatrigenia,fundus of stomach,http://purl.obolibrary.org/obo/UBERON_0001160,0.5786
+fundatrispuria,serosa of fundus of stomach,http://purl.obolibrary.org/obo/UBERON_0012503,0.5738
+hatchling,hatching,http://purl.obolibrary.org/obo/GO_0035188,0.9368
+hypopus,hypoconid,http://purl.obolibrary.org/obo/UBERON_0018279,0.6561
+I,well,http://purl.obolibrary.org/obo/ENVO_00000026,0.4871
+II,variant,http://purl.obolibrary.org/obo/PATO_0001227,0.4240
+I,well,http://purl.obolibrary.org/obo/ENVO_00000026,0.4871
+II,variant,http://purl.obolibrary.org/obo/PATO_0001227,0.4240
+I-II,D-tyrosinate(2-),http://purl.obolibrary.org/obo/CHEBI_32774,0.4281
+III,occurrent,http://purl.obolibrary.org/obo/BFO_0000003,0.4432
+II & III,meiosis II,http://purl.obolibrary.org/obo/GO_0007135,0.4827
+II,variant,http://purl.obolibrary.org/obo/PATO_0001227,0.4240
+III,occurrent,http://purl.obolibrary.org/obo/BFO_0000003,0.4432
+II-III,meiosis II,http://purl.obolibrary.org/obo/GO_0007135,0.4677
+II. III.,meiosis II,http://purl.obolibrary.org/obo/GO_0007135,0.4064
+I. II. III.,meiosis II,http://purl.obolibrary.org/obo/GO_0007135,0.4745
+imago,phagocyte,http://purl.obolibrary.org/obo/CL_0000234,0.5034
+immature,immature,http://purl.obolibrary.org/obo/PATO_0001501,1.0000
+Immature,immature,http://purl.obolibrary.org/obo/PATO_0001501,1.0000
+juv.,vacuole,http://purl.obolibrary.org/obo/GO_0005773,0.4429
+adults,adult organism,http://purl.obolibrary.org/obo/UBERON_0007023,0.6245
+juvenile,juvenile,http://purl.obolibrary.org/obo/PATO_0001190,1.0000
+Juvenile,juvenile,http://purl.obolibrary.org/obo/PATO_0001190,1.0000
+juvenile,juvenile,http://purl.obolibrary.org/obo/PATO_0001190,1.0000
+adult,adult organism,http://purl.obolibrary.org/obo/UBERON_0007023,0.7024
+juveniles,juvenile,http://purl.obolibrary.org/obo/PATO_0001190,0.8717
+larva,larva,http://purl.obolibrary.org/obo/UBERON_0002548,1.0000
+Larva,larva,http://purl.obolibrary.org/obo/UBERON_0002548,1.0000
+larvae,larval,http://purl.obolibrary.org/obo/PATO_0001185,0.7761
+Larvae,larval,http://purl.obolibrary.org/obo/PATO_0001185,0.7761
+larvae and adults,larval development,http://purl.obolibrary.org/obo/GO_0002164,0.6631
+larvae; eggs,larval development,http://purl.obolibrary.org/obo/GO_0002164,0.7040
+larval,larval,http://purl.obolibrary.org/obo/PATO_0001185,1.0000
+Larval,larval,http://purl.obolibrary.org/obo/PATO_0001185,1.0000
+Larval & Pupa,larval,http://purl.obolibrary.org/obo/PATO_0001185,0.7787
+larva; nymph,larva,http://purl.obolibrary.org/obo/UBERON_0002548,0.8328
+larve,lahar,http://purl.obolibrary.org/obo/ENVO_01000699,0.6311
+last instar larva,second instar larva,http://purl.obolibrary.org/obo/UBERON_0018382,0.8861
+leaves,leaf,http://purl.obolibrary.org/obo/PO_0025034,0.8455
+blades,iliac blade,http://purl.obolibrary.org/obo/UBERON_0010746,0.6602
+mainly adult,juvenile,http://purl.obolibrary.org/obo/PATO_0001190,0.5870
+mainly chick,breast feather,http://purl.obolibrary.org/obo/UBERON_0018538,0.4236
+male,male gamete,http://purl.obolibrary.org/obo/CL_0000408,0.6342
+mature,immature,http://purl.obolibrary.org/obo/PATO_0001501,0.7952
+medusae,cavum medius,http://purl.obolibrary.org/obo/UBERON_3000087,0.5473
+metacercaria,metacercaria,http://purl.obolibrary.org/obo/UBERON_0018385,1.0000
+Metacercariae,metacercaria,http://purl.obolibrary.org/obo/UBERON_0018385,0.8471
+metacestode,metacestode,http://purl.obolibrary.org/obo/UBERON_0018379,1.0000
+microfilaria,microspore,http://purl.obolibrary.org/obo/PO_0020048,0.7052
+Microfilaria,microspore,http://purl.obolibrary.org/obo/PO_0020048,0.7052
+microfilariae,microsporangium,http://purl.obolibrary.org/obo/PO_0025202,0.7372
+Mixed,mixed forest,http://purl.obolibrary.org/obo/ENVO_01000431,0.5809
+n1,digit 1,http://purl.obolibrary.org/obo/UBERON_0006048,0.5252
+n2,digit 2,http://purl.obolibrary.org/obo/UBERON_0006049,0.5371
+n3,digit 3,http://purl.obolibrary.org/obo/UBERON_0006050,0.5246
+n4,digit 4,http://purl.obolibrary.org/obo/UBERON_0006051,0.5874
+n5,digit 5,http://purl.obolibrary.org/obo/UBERON_0006052,0.5664
+n6,digit 6,http://purl.obolibrary.org/obo/UBERON_0016856,0.6117
+naiad,fishpond,http://purl.obolibrary.org/obo/ENVO_00000056,0.4647
+n.a.,N-acylammonia,http://purl.obolibrary.org/obo/CHEBI_83628,0.4957
+others,mine,http://purl.obolibrary.org/obo/ENVO_00000076,0.4482
+NEO,Neoptera,http://purl.obolibrary.org/obo/NCBITaxon_33340,0.7047
+Nestling,nest of bird,http://purl.obolibrary.org/obo/ENVO_00005805,0.6819
+nymph,nymph stage,http://purl.obolibrary.org/obo/UBERON_0014405,0.7422
+Nymph,nymph stage,http://purl.obolibrary.org/obo/UBERON_0014405,0.7422
+nymphs,nymph stage,http://purl.obolibrary.org/obo/UBERON_0014405,0.6820
+oocyst,oocyte,http://purl.obolibrary.org/obo/CL_0000023,0.7089
+other,opposite,http://purl.obolibrary.org/obo/PATO_0001933,0.4430
+ovigerous,oviduct,http://purl.obolibrary.org/obo/UBERON_0000993,0.7260
+P,seep,http://purl.obolibrary.org/obo/ENVO_01000262,0.5035
+paralarva,Paramo,http://purl.obolibrary.org/obo/ENVO_01001360,0.7190
+juvenile,juvenile,http://purl.obolibrary.org/obo/PATO_0001190,1.0000
+parthenitae,Euteleostomi,http://purl.obolibrary.org/obo/NCBITaxon_117571,0.5457
+Parthinitae,subparietal sulcus,http://purl.obolibrary.org/obo/UBERON_0002908,0.5163
+plerocercoid,plerome,http://purl.obolibrary.org/obo/PO_0008035,0.6780
+POSTLARVA,posthypocrista,http://purl.obolibrary.org/obo/UBERON_0018292,0.6178
+protonymph,proton,http://purl.obolibrary.org/obo/CHEBI_24636,0.7866
+protozoan stage,plant proembryo stage,http://purl.obolibrary.org/obo/PO_0001180,0.6261
+pupa,pupa,http://purl.obolibrary.org/obo/UBERON_0003143,1.0000
+Pupa,pupa,http://purl.obolibrary.org/obo/UBERON_0003143,1.0000
+pupae,pupa,http://purl.obolibrary.org/obo/UBERON_0003143,0.8544
+pupal case,pupal case,http://purl.obolibrary.org/obo/UBERON_0018657,1.0000
+Pupal Case,pupal case,http://purl.obolibrary.org/obo/UBERON_0018657,1.0000
+recruits,military training area,http://purl.obolibrary.org/obo/ENVO_00000561,0.4835
+juv.,vacuole,http://purl.obolibrary.org/obo/GO_0005773,0.4429
+reproductive,reproductive process,http://purl.obolibrary.org/obo/GO_0022414,0.8607
+Seedling,seedling,http://purl.obolibrary.org/obo/PO_0008037,1.0000
+Senescing,nerve,http://purl.obolibrary.org/obo/UBERON_0001021,0.5462
+sourceLifeStageName,pnictogen,http://purl.obolibrary.org/obo/CHEBI_33300,0.4325
+stage 1,death stage,http://purl.obolibrary.org/obo/UBERON_0000071,0.6316
+stage III,death stage,http://purl.obolibrary.org/obo/UBERON_0000071,0.6294
+statoblasts,statocyst,http://purl.obolibrary.org/obo/UBERON_0006583,0.6177
+subadult,subpolar,http://purl.obolibrary.org/obo/ENVO_01000251,0.5980
+targetLifeStageName,death stage,http://purl.obolibrary.org/obo/UBERON_0000071,0.3928
+Teleutospores,Teleostomi,http://purl.obolibrary.org/obo/NCBITaxon_117570,0.6409
+Telomorph,Teleostei,http://purl.obolibrary.org/obo/NCBITaxon_32443,0.7508
+tetrathyridia,Tetradontoidea,http://purl.obolibrary.org/obo/NCBITaxon_32517,0.7551
+tetrathyridium,Tetradontoidea,http://purl.obolibrary.org/obo/NCBITaxon_32517,0.6948
+Tritonymph,otolymph,http://purl.obolibrary.org/obo/UBERON_0006586,0.5973
+Type coll.,columnar,http://purl.obolibrary.org/obo/PATO_0002063,0.4628
+unspecified,obsolete unspecified,http://purl.obolibrary.org/obo/UBERON_0006336,0.6702
+Unspecified,obsolete unspecified,http://purl.obolibrary.org/obo/UBERON_0006336,0.6702
+Vegetative,vegetative bud,http://purl.obolibrary.org/obo/PO_0000058,0.7638
+VELIGER,velamen,http://purl.obolibrary.org/obo/PO_0006042,0.7482
+young,young,http://purl.obolibrary.org/obo/PATO_0000309,1.0000
+young of year,young,http://purl.obolibrary.org/obo/PATO_0000309,0.8007

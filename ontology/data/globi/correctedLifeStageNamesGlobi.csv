@@ -1,0 +1,176 @@
+InputTerm,BestMatch,URI,Comment
+#0+,,,
+#0,,,
+#I,,,
+#II,,,
+#III,,,
+1 adult,adult organism,http://purl.obolibrary.org/obo/UBERON_0007023,
+1 Adult,adult organism,http://purl.obolibrary.org/obo/UBERON_0007023,
+1 Pupa,pupa,http://purl.obolibrary.org/obo/UBERON_0003143,
+A,adult organism,http://purl.obolibrary.org/obo/UBERON_0007023,
+#Acanthella,,, #wrongly labelled life stage name. Acanthella is a genus name
+#active,,, #not sure what active means here
+adolescaria,larval stage,http://purl.obolibrary.org/obo/UBERON_0000069,#no specific term for adolescaria - late larval stage
+adult,adult organism,http://purl.obolibrary.org/obo/UBERON_0007023,
+adult;;,adult organism,http://purl.obolibrary.org/obo/UBERON_0007023,
+adult?,adult organism,http://purl.obolibrary.org/obo/UBERON_0007023,
+Adult,adult organism,http://purl.obolibrary.org/obo/UBERON_0007023,
+adult,adult organism,http://purl.obolibrary.org/obo/UBERON_0007023,
+#chick,,,
+adult; egg,adult organism,http://purl.obolibrary.org/obo/UBERON_0007023,
+adult female,adult organism,http://purl.obolibrary.org/obo/UBERON_0007023,
+adult,adult organism,http://purl.obolibrary.org/obo/UBERON_0007023,
+juvenile,juvenile,http://purl.obolibrary.org/obo/PATO_0001190,
+juveniles,juvenile,http://purl.obolibrary.org/obo/PATO_0001190,
+adult,adult organism,http://purl.obolibrary.org/obo/UBERON_0007023,
+larva,larva,http://purl.obolibrary.org/obo/UBERON_0002548,
+Adult,adult organism,http://purl.obolibrary.org/obo/UBERON_0007023,
+Larval,larval,http://purl.obolibrary.org/obo/PATO_0001185,
+adult male,adult organism,http://purl.obolibrary.org/obo/UBERON_0007023,
+adult,adult organism,http://purl.obolibrary.org/obo/UBERON_0007023,
+pupal case,pupal case,http://purl.obolibrary.org/obo/UBERON_0018657,
+adults,adult organism,http://purl.obolibrary.org/obo/UBERON_0007023,
+Adult(s),adult organism,http://purl.obolibrary.org/obo/UBERON_0007023,
+#age class 2+,,,
+Budding,bud developmental stage,http://purl.obolibrary.org/obo/PO_0025528,
+calyptopis,zoea stage,http://purl.obolibrary.org/obo/UBERON_0014857,
+cercaria,cercaria,http://purl.obolibrary.org/obo/UBERON_0018388,
+Cercariae,cercaria,http://purl.obolibrary.org/obo/UBERON_0018388,
+#cercariae; redia,,,
+#chick,,,
+adult,adult organism,http://purl.obolibrary.org/obo/UBERON_0007023,
+copepod,copepodite stage,http://purl.obolibrary.org/obo/UBERON_0014860,
+COPEPODITE,copepodite stage,http://purl.obolibrary.org/obo/UBERON_0014860,
+copepodite 1,copepodite stage 1,http://purl.obolibrary.org/obo/UBERON_8200002,
+copepodite 2,copepodite stage 2,http://purl.obolibrary.org/obo/UBERON_8200003,
+copepodite 3,copepodite stage 3,http://purl.obolibrary.org/obo/UBERON_8200004,
+copepodite 4,copepodite stage 4,http://purl.obolibrary.org/obo/UBERON_8200005,
+copepodite 5,copepodite stage 5,http://purl.obolibrary.org/obo/UBERON_8200006,
+copepodite 6,copepodite stage 6,http://purl.obolibrary.org/obo/UBERON_8200007,
+#cyprid,,,#stage for barnacles - not yet in uberon
+#CYPRIS,,,#does not look like a life stage name - more like species name for bees
+#cyst,,,#different in different contexts.
+#cystacanth,,, #its a cyst-shaped larval stage in invertebrates (worms?)
+#Cystacanth,,, #its a cyst-shaped larval stage in invertebrates (worms?)
+cysticercus,cysticercus stage,http://purl.obolibrary.org/obo/UBERON_0014856,
+#deutonymph,,, #its one of the larval stage of mites
+early life stages,infant stage,http://purl.obolibrary.org/obo/UBERON_0034920,
+egg,embryo stage,http://purl.obolibrary.org/obo/UBERON_0000068, #careful - for many insects it is egg mass - so could be ootheca
+eggs,embryo stage,http://purl.obolibrary.org/obo/UBERON_0000068, #careful - for many insects it is egg mass - so could be ootheca
+embryo,embryo,http://purl.obolibrary.org/obo/UBERON_0000922,
+f1,copepodite stage 1,http://purl.obolibrary.org/obo/UBERON_8200002,
+f3,copepodite stage 3,http://purl.obolibrary.org/obo/UBERON_8200004,
+f4,copepodite stage 4,http://purl.obolibrary.org/obo/UBERON_8200005,
+f5,copepodite stage 5,http://purl.obolibrary.org/obo/UBERON_8200006,
+f6,copepodite stage 6,http://purl.obolibrary.org/obo/UBERON_8200007,
+#female,,, #tricky. Although this is a type of biological sex- but some organisms like fishes undergo sequential hermaphroditism
+Fertile,fertile,http://purl.obolibrary.org/obo/PATO_0000955,
+Flowering,flowering stage,http://purl.obolibrary.org/obo/PO_0007616,
+Flowering and fruiting,flowering stage,http://purl.obolibrary.org/obo/PO_0007616,
+Flowering and Fruiting,flowering stage,http://purl.obolibrary.org/obo/PO_0007616,
+Fruiting,fruit developmental stage,http://purl.obolibrary.org/obo/PO_0001002,
+fruits,fruit,http://purl.obolibrary.org/obo/PO_0009001,
+seeds,seed,http://purl.obolibrary.org/obo/PO_0009010,
+#fry,,, #the organism match is salmo salar (salmon)
+#fundatrigenia,,,#it is viviparous parthenogenetic wingless female aphid 
+#fundatrispuria,,,
+hatchling,hatching,http://purl.obolibrary.org/obo/GO_0035188,
+#hypopus,,,#migratory larva of some mites
+#I,,, #probably stages of fungal parasitism - https://pmc.ncbi.nlm.nih.gov/articles/PMC3625230/
+#II,,, #probably stages of fungal parasitism - https://pmc.ncbi.nlm.nih.gov/articles/PMC3625230/
+#I,,, #probably stages of fungal parasitism - https://pmc.ncbi.nlm.nih.gov/articles/PMC3625230/
+#II,,, #probably stages of fungal parasitism - https://pmc.ncbi.nlm.nih.gov/articles/PMC3625230/
+#I-II,,, #probably stages of fungal parasitism - https://pmc.ncbi.nlm.nih.gov/articles/PMC3625230/
+#III,,, #probably stages of fungal parasitism - https://pmc.ncbi.nlm.nih.gov/articles/PMC3625230/
+#II & III,,, #probably stages of fungal parasitism - https://pmc.ncbi.nlm.nih.gov/articles/PMC3625230/
+#II,,, #probably stages of fungal parasitism - https://pmc.ncbi.nlm.nih.gov/articles/PMC3625230/
+#III,,, #probably stages of fungal parasitism - https://pmc.ncbi.nlm.nih.gov/articles/PMC3625230/
+#II-III,,, #probably stages of fungal parasitism - https://pmc.ncbi.nlm.nih.gov/articles/PMC3625230/
+#II. III.,,, #probably stages of fungal parasitism - https://pmc.ncbi.nlm.nih.gov/articles/PMC3625230/
+#I. II. III.,,, #probably stages of fungal parasitism - https://pmc.ncbi.nlm.nih.gov/articles/PMC3625230/
+#imago,,,#something related to Arthropoda
+immature,immature,http://purl.obolibrary.org/obo/PATO_0001501,
+Immature,immature,http://purl.obolibrary.org/obo/PATO_0001501,
+juv.,juvenile,http://purl.obolibrary.org/obo/PATO_0001190,
+adults,adult organism,http://purl.obolibrary.org/obo/UBERON_0007023,
+juvenile,juvenile,http://purl.obolibrary.org/obo/PATO_0001190,
+Juvenile,juvenile,http://purl.obolibrary.org/obo/PATO_0001190,
+juvenile,juvenile,http://purl.obolibrary.org/obo/PATO_0001190,
+adult,adult organism,http://purl.obolibrary.org/obo/UBERON_0007023,
+juveniles,juvenile,http://purl.obolibrary.org/obo/PATO_0001190,
+larva,larva,http://purl.obolibrary.org/obo/UBERON_0002548,
+Larva,larva,http://purl.obolibrary.org/obo/UBERON_0002548,
+larvae,larval,http://purl.obolibrary.org/obo/PATO_0001185,
+Larvae,larval,http://purl.obolibrary.org/obo/PATO_0001185,
+#larvae and adults,,, #maybe parse strings by comma;/and to incorporate multiple stages
+larval,larval,http://purl.obolibrary.org/obo/PATO_0001185,
+Larval,larval,http://purl.obolibrary.org/obo/PATO_0001185,
+#Larval & Pupa,,, #maybe parse strings by comma;/and to incorporate multiple stages
+larve,larval,http://purl.obolibrary.org/obo/PATO_0001185,
+last instar larva,instar larval stage,http://purl.obolibrary.org/obo/UBERON_0004730,
+leaves,leaf,http://purl.obolibrary.org/obo/PO_0025034,
+#blades,,,
+mainly adult,adult organism,http://purl.obolibrary.org/obo/UBERON_0007023,
+#mainly chick,,,
+#male,,,#tricky. Although this is a type of biological sex- but some organisms like fishes undergo sequential hermaph    roditism
+mature,mature,http://purl.obolibrary.org/obo/PATO_0001701,
+#medusae,,,#life stage of fungi - also species name
+metacercaria,metacercaria,http://purl.obolibrary.org/obo/UBERON_0018385,
+Metacercariae,metacercaria,http://purl.obolibrary.org/obo/UBERON_0018385,
+metacestode,metacestode,http://purl.obolibrary.org/obo/UBERON_0018379,
+microfilaria,microfilaria,http://purl.obolibrary.org/obo/WBls_0000664,
+Microfilaria,microfilaria,http://purl.obolibrary.org/obo/WBls_0000664,
+microfilariae,microfilaria,http://purl.obolibrary.org/obo/WBls_0000664,
+#Mixed,,,#vague
+n1,copepodite stage 1,http://purl.obolibrary.org/obo/UBERON_8200002,#found the organism match to be a copepod
+n2,copepodite stage 2,http://purl.obolibrary.org/obo/UBERON_8200003,#found the organism match to be a copepod
+n3,copepodite stage 3,http://purl.obolibrary.org/obo/UBERON_8200004,#found the organism match to be a copepod
+n4,copepodite stage 4,http://purl.obolibrary.org/obo/UBERON_8200005,#found the organism match to be a copepod
+n5,copepodite stage 5,http://purl.obolibrary.org/obo/UBERON_8200006,#found the organism match to be a copepod
+n6,copepodite stage 6,http://purl.obolibrary.org/obo/UBERON_8200007,#found the organism match to be a copepod
+#naiad,,,#appears to be a specific life stage for dragonflies - does not fall in larvae/pupa/nymph
+#n.a.,,,#vague
+#others,,,#vague
+#NEO,,,# matches to species of virus/fungi/shark(?)
+Nestling,neonate stage,http://purl.obolibrary.org/obo/UBERON_0007221,
+nymph,nymph stage,http://purl.obolibrary.org/obo/UBERON_0014405,
+Nymph,nymph stage,http://purl.obolibrary.org/obo/UBERON_0014405,
+nymphs,nymph stage,http://purl.obolibrary.org/obo/UBERON_0014405,
+oocyst,oocyst,http://purl.obolibrary.org/obo/IDOMAL_0000298,#found a malarial ontology
+#other,,,#vague
+#ovigerous,,,#bearing eggs or modified to bear eggs
+#P,,,#organism match are Poales/Carex-plant species
+paralarva,paralarval stage,http://purl.obolibrary.org/obo/CEPH_0000194,
+juvenile,juvenile,http://purl.obolibrary.org/obo/PATO_0001190,
+#parthenitae,,,#trematode life stage - in general all of them not found in UBERON 
+#Parthinitae,,,#trematode life stage - in general all of them not found in UBERON
+#plerocercoid,,,#trematode life stage - in general all of them not found in UBERON
+#POSTLARVA,,,
+#protonymph,,,#its one of the larval stage of mites
+#protozoan stage,,,#it has different types - vaccine/infections/etc - but no life stage type
+pupa,pupa,http://purl.obolibrary.org/obo/UBERON_0003143,
+Pupa,pupa,http://purl.obolibrary.org/obo/UBERON_0003143,
+pupae,pupa,http://purl.obolibrary.org/obo/UBERON_0003143,
+pupal case,pupal case,http://purl.obolibrary.org/obo/UBERON_0018657,
+Pupal Case,pupal case,http://purl.obolibrary.org/obo/UBERON_0018657,
+#recruits,,,#wrong mapping in life stage name - looks like relation
+juv.,juvenile,http://purl.obolibrary.org/obo/PATO_0001190,
+reproductive,reproductive process,http://purl.obolibrary.org/obo/GO_0022414,
+Seedling,seedling,http://purl.obolibrary.org/obo/PO_0008037,
+#Senescing,,,#plant matches preserved specimen
+#stage 1,,,#organism matches are from WORMS taxonomy
+#stage III,,,#only reported for fungus Puccinia graminis
+statoblasts,statoblast,http://purl.obolibrary.org/obo/PORO_0000553,
+#subadult,,,#reported for a variety of organisms - whale/artic/fox/etc
+Teleutospores,teliospore,http://purl.obolibrary.org/obo/FAO_0000022,#also known as teliospore
+#Telomorph,,,#fungal life stage
+#tetrathyridia,,,#life stage of tapeworms Mesocestoides
+#tetrathyridium,,,#life stage of tapeworms Mesocestoides
+#Tritonymph,,,#its one of the larval stage of mites
+#Type coll.,,,#only reported for fungus genus Puccinia
+#unspecified,,,
+#Unspecified,,,
+Vegetative,vegetative bud,http://purl.obolibrary.org/obo/PO_0000058,
+VELIGER,veliger stage,http://purl.obolibrary.org/obo/UBERON_0014863,
+young,young,http://purl.obolibrary.org/obo/PATO_0000309,
+young of year,young,http://purl.obolibrary.org/obo/PATO_0000309,

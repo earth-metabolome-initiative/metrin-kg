@@ -1,0 +1,203 @@
+Input Term,Best Match,URI,Similarity Score
+2 guts,gut wall,http://purl.obolibrary.org/obo/UBERON_0000328,0.5548
+abdominal cavity,abdominal cavity,http://purl.obolibrary.org/obo/UBERON_0003684,1.0000
+abo,abomasum,http://purl.obolibrary.org/obo/UBERON_0007358,0.5669
+abo1,abomasum,http://purl.obolibrary.org/obo/UBERON_0007358,0.5594
+abomasum,abomasum,http://purl.obolibrary.org/obo/UBERON_0007358,1.0000
+abomasum,abomasum,http://purl.obolibrary.org/obo/UBERON_0007358,1.0000
+si,sill,http://purl.obolibrary.org/obo/ENVO_01000737,0.6484
+abo,abomasum,http://purl.obolibrary.org/obo/UBERON_0007358,0.5669
+sm intestine,intestine,http://purl.obolibrary.org/obo/UBERON_0000160,0.8384
+allantoic fluid,allantois,http://purl.obolibrary.org/obo/UBERON_0004340,0.6601
+antenna,antenna,http://purl.obolibrary.org/obo/UBERON_0000972,1.0000
+antennal glands,antennal gland,http://purl.obolibrary.org/obo/UBERON_0009963,0.9528
+bark,bark,http://purl.obolibrary.org/obo/PO_0004518,1.0000
+bile duct,bile duct,http://purl.obolibrary.org/obo/UBERON_0002394,1.0000
+bile duct,bile duct,http://purl.obolibrary.org/obo/UBERON_0002394,1.0000
+pancreas,pancreas,http://purl.obolibrary.org/obo/UBERON_0001264,1.0000
+bile ducts,bile duct,http://purl.obolibrary.org/obo/UBERON_0002394,0.9558
+bladder,urinary bladder,http://purl.obolibrary.org/obo/UBERON_0001255,0.8736
+blood,blood,http://purl.obolibrary.org/obo/UBERON_0000178,1.0000
+body,body of stomach,http://purl.obolibrary.org/obo/UBERON_0001161,0.7105
+body cavity,organ cavity,http://purl.obolibrary.org/obo/UBERON_0002558,0.8467
+body surface,anatomical surface,http://purl.obolibrary.org/obo/UBERON_0006984,0.7981
+brain,brain,http://purl.obolibrary.org/obo/UBERON_0000955,1.0000
+branchial arteries,recurrent branch afferent branchial artery,http://purl.obolibrary.org/obo/UBERON_2005014,0.8369
+bursa,bursal plica,http://purl.obolibrary.org/obo/UBERON_0003904,0.7946
+caeca,Caudata,http://purl.obolibrary.org/obo/NCBITaxon_8293,0.6705
+intestine,intestine,http://purl.obolibrary.org/obo/UBERON_0000160,1.0000
+caecum,caecum,http://purl.obolibrary.org/obo/UBERON_0001153,1.0000
+caecum,caecum,http://purl.obolibrary.org/obo/UBERON_0001153,1.0000
+large intestine,large intestine,http://purl.obolibrary.org/obo/UBERON_0000059,1.0000
+caecum (or cecum),caecum,http://purl.obolibrary.org/obo/UBERON_0001153,0.8436
+ceca,cercaria,http://purl.obolibrary.org/obo/UBERON_0018388,0.7337
+cecae,cercaria,http://purl.obolibrary.org/obo/UBERON_0018388,0.7417
+cecum,cecum mucosa,http://purl.obolibrary.org/obo/UBERON_0000314,0.7603
+cerebrospinal fluid,cerebrospinal fluid,http://purl.obolibrary.org/obo/UBERON_0001359,1.0000
+cervical ligament,cervical fascia,http://purl.obolibrary.org/obo/UBERON_0013491,0.7773
+cloaca,cloaca,http://purl.obolibrary.org/obo/UBERON_0000162,1.0000
+coelom,coelom,http://purl.obolibrary.org/obo/UBERON_0011997,1.0000
+coelom cyst,coelomic epithelium,http://purl.obolibrary.org/obo/UBERON_0005891,0.6841
+coelomic cavity,extraembryonic coelomic cavity,http://purl.obolibrary.org/obo/UBERON_0003888,0.8394
+colon,colon,http://purl.obolibrary.org/obo/UBERON_0001155,1.0000
+connective tissue-neck,neck connective tissue,http://purl.obolibrary.org/obo/UBERON_0003568,0.9495
+connective tissue-stomach,abdomen connective tissue,http://purl.obolibrary.org/obo/UBERON_0003567,0.8863
+diaphragm muscles,diaphragmaticus muscle,http://purl.obolibrary.org/obo/UBERON_0036071,0.9283
+digestive gland,gland of digestive tract,http://purl.obolibrary.org/obo/UBERON_0003408,0.9476
+dorsal colon,dorsal pouch,http://purl.obolibrary.org/obo/UBERON_3000999,0.7409
+dorsal mesenteries,dorsal mesentery,http://purl.obolibrary.org/obo/UBERON_0002296,0.9052
+dorsal skeletal muscle,dorsal erector muscle,http://purl.obolibrary.org/obo/UBERON_2000500,0.7750
+duodenum,duodenum,http://purl.obolibrary.org/obo/UBERON_0002114,1.0000
+ear,ear,http://purl.obolibrary.org/obo/UBERON_0001690,1.0000
+inner,inner mental barbel,http://purl.obolibrary.org/obo/UBERON_2001969,0.6213
+encapsulated under body skin,skin secretion,http://purl.obolibrary.org/obo/UBERON_0006535,0.6097
+esophagus,esophagus,http://purl.obolibrary.org/obo/UBERON_0001043,1.0000
+esophagus,esophagus,http://purl.obolibrary.org/obo/UBERON_0001043,1.0000
+abdominal cavity,abdominal cavity,http://purl.obolibrary.org/obo/UBERON_0003684,1.0000
+esophagus,esophagus,http://purl.obolibrary.org/obo/UBERON_0001043,1.0000
+stomach,stomach,http://purl.obolibrary.org/obo/UBERON_0000945,1.0000
+esophagus,esophagus,http://purl.obolibrary.org/obo/UBERON_0001043,1.0000
+stomach,stomach,http://purl.obolibrary.org/obo/UBERON_0000945,1.0000
+lg intes.,integument,http://purl.obolibrary.org/obo/UBERON_0002199,0.5238
+external,external to,http://purl.obolibrary.org/obo/PATO_0002483,0.8779
+eye,eye,http://purl.obolibrary.org/obo/UBERON_0000970,1.0000
+or orbit,obsolete orbit,http://purl.obolibrary.org/obo/UBERON_2001967,0.6062
+eye - periorbital sinuses,inferior petrosal sinus,http://purl.obolibrary.org/obo/UBERON_0007160,0.6498
+eyes,eye,http://purl.obolibrary.org/obo/UBERON_0000970,0.8945
+eyelids,eyelid,http://purl.obolibrary.org/obo/UBERON_0001711,0.7915
+fascia of thigh,fascia,http://purl.obolibrary.org/obo/UBERON_0008982,0.8491
+feces,feces,http://purl.obolibrary.org/obo/UBERON_0001988,1.0000
+feces-in intestine,feces,http://purl.obolibrary.org/obo/UBERON_0001988,0.7877
+front limb (growth),limb development,http://purl.obolibrary.org/obo/GO_0060173,0.6926
+gall bladder,gallbladder,http://purl.obolibrary.org/obo/UBERON_0002110,0.8592
+gallbladder,gallbladder,http://purl.obolibrary.org/obo/UBERON_0002110,1.0000
+gall bladder,gallbladder,http://purl.obolibrary.org/obo/UBERON_0002110,0.8592
+liver,liver,http://purl.obolibrary.org/obo/UBERON_0002107,1.0000
+gastric polyp,principal gastric gland,http://purl.obolibrary.org/obo/UBERON_0009971,0.6783
+gastrointestinal tract,digestive tract,http://purl.obolibrary.org/obo/UBERON_0001555,0.8479
+gill,gill,http://purl.obolibrary.org/obo/UBERON_0002535,1.0000
+gill cavity,tooth cavity,http://purl.obolibrary.org/obo/UBERON_0002487,0.7710
+gill filament,gill filament,http://purl.obolibrary.org/obo/UBERON_0009120,1.0000
+gill(s),gill,http://purl.obolibrary.org/obo/UBERON_0002535,0.9212
+gills,gill,http://purl.obolibrary.org/obo/UBERON_0002535,0.7139
+gi tract,pineal tract,http://purl.obolibrary.org/obo/UBERON_0034715,0.7236
+gizzard,gizzard,http://purl.obolibrary.org/obo/UBERON_0005052,1.0000
+gullet,sleet pellet,http://purl.obolibrary.org/obo/ENVO_03400015,0.7198
+gut,presumptive gut,http://purl.obolibrary.org/obo/UBERON_0007026,0.7865
+gut washings,presumptive gut,http://purl.obolibrary.org/obo/UBERON_0007026,0.6241
+heart,heart,http://purl.obolibrary.org/obo/UBERON_0000948,1.0000
+heart - aortic bulb,bulb of aorta,http://purl.obolibrary.org/obo/UBERON_0010172,0.8496
+heart muscle,chest muscle,http://purl.obolibrary.org/obo/UBERON_0002426,0.8293
+hindgut,hindgut,http://purl.obolibrary.org/obo/UBERON_0001046,1.0000
+hind quarter- near knee,knee joint,http://purl.obolibrary.org/obo/UBERON_0001485,0.6246
+intestine,intestine,http://purl.obolibrary.org/obo/UBERON_0000160,1.0000
+intestine,intestine,http://purl.obolibrary.org/obo/UBERON_0000160,1.0000
+stomach,stomach,http://purl.obolibrary.org/obo/UBERON_0000945,1.0000
+jejunum,jejunum,http://purl.obolibrary.org/obo/UBERON_0002115,1.0000
+ileum,ileum,http://purl.obolibrary.org/obo/UBERON_0002116,1.0000
+kidney,kidney,http://purl.obolibrary.org/obo/UBERON_0002113,1.0000
+kidney,kidney,http://purl.obolibrary.org/obo/UBERON_0002113,1.0000
+sm intestine,intestine,http://purl.obolibrary.org/obo/UBERON_0000160,0.8384
+large intestine,large intestine,http://purl.obolibrary.org/obo/UBERON_0000059,1.0000
+left opercular cavity,opercular cavity,http://purl.obolibrary.org/obo/UBERON_2002154,0.8673
+lg intestine,intestine,http://purl.obolibrary.org/obo/UBERON_0000160,0.7717
+liver,liver,http://purl.obolibrary.org/obo/UBERON_0002107,1.0000
+liver (embedded),liver,http://purl.obolibrary.org/obo/UBERON_0002107,0.7816
+liver,liver,http://purl.obolibrary.org/obo/UBERON_0002107,1.0000
+lungs,lung,http://purl.obolibrary.org/obo/UBERON_0002048,0.9225
+lung,lung,http://purl.obolibrary.org/obo/UBERON_0002048,1.0000
+lung(s),lung,http://purl.obolibrary.org/obo/UBERON_0002048,0.8823
+lungs,lung,http://purl.obolibrary.org/obo/UBERON_0002048,0.9225
+mantle cavity,mantle cavity,http://purl.obolibrary.org/obo/UBERON_0006580,1.0000
+meninges,forebrain meninges,http://purl.obolibrary.org/obo/UBERON_0003548,0.7198
+mesenteries,mesentery,http://purl.obolibrary.org/obo/UBERON_0002095,0.8191
+mesentery,mesentery,http://purl.obolibrary.org/obo/UBERON_0002095,1.0000
+mesentery,mesentery,http://purl.obolibrary.org/obo/UBERON_0002095,1.0000
+body cavity,organ cavity,http://purl.obolibrary.org/obo/UBERON_0002558,0.8467
+mouth,mouth,http://purl.obolibrary.org/obo/UBERON_0000165,1.0000
+muscle,muscle of leg,http://purl.obolibrary.org/obo/UBERON_0001383,0.8059
+muscles,muscle structure,http://purl.obolibrary.org/obo/UBERON_0005090,0.7885
+musculature,musculature,http://purl.obolibrary.org/obo/UBERON_0001015,1.0000
+nares,naris,http://purl.obolibrary.org/obo/UBERON_0000003,0.7840
+nasal cavities,nasal cavity,http://purl.obolibrary.org/obo/UBERON_0001707,0.8292
+nasal fossae,tonsillar fossa,http://purl.obolibrary.org/obo/UBERON_0035228,0.7248
+omentum,omentum,http://purl.obolibrary.org/obo/UBERON_0003688,1.0000
+oronasopharynx,nasopharynx,http://purl.obolibrary.org/obo/UBERON_0001728,0.7058
+ovary,ovary,http://purl.obolibrary.org/obo/UBERON_0000992,1.0000
+peritoneum cysts,gastrointestinal peritoneum,http://purl.obolibrary.org/obo/UBERON_3010819,0.6881
+plant leaf,leaf,http://purl.obolibrary.org/obo/PO_0025034,0.8877
+pleural wash,pleural fluid,http://purl.obolibrary.org/obo/UBERON_0001087,0.7351
+lungs,lung,http://purl.obolibrary.org/obo/UBERON_0002048,0.9225
+posterior intestine,intestine,http://purl.obolibrary.org/obo/UBERON_0000160,0.7641
+proventriculus,proventriculus,http://purl.obolibrary.org/obo/UBERON_0007357,1.0000
+pyloric cacae (encysted),obsolete pyloric caecum,http://purl.obolibrary.org/obo/UBERON_2002253,0.7170
+pyloric ceca,pyloric stomach,http://purl.obolibrary.org/obo/UBERON_0008246,0.6862
+rectum,rectum,http://purl.obolibrary.org/obo/UBERON_0001052,1.0000
+redia in gonads,gonad,http://purl.obolibrary.org/obo/UBERON_0000991,0.6033
+Relay # 70,digit 7,http://purl.obolibrary.org/obo/UBERON_0016857,0.4431
+Panel F,control panel,http://purl.obolibrary.org/obo/ENVO_03501210,0.6238
+renal,kidney,http://purl.obolibrary.org/obo/UBERON_0002113,0.9232
+iliac,iliac ramus,http://purl.obolibrary.org/obo/UBERON_4200220,0.7856
+kidney veins,renal vein,http://purl.obolibrary.org/obo/UBERON_0001140,0.8893
+right cranial sinus,frontal sinus,http://purl.obolibrary.org/obo/UBERON_0001760,0.7479
+rumen,rumen,http://purl.obolibrary.org/obo/UBERON_0007365,1.0000
+rumen,rumen,http://purl.obolibrary.org/obo/UBERON_0007365,1.0000
+omasum,omasum,http://purl.obolibrary.org/obo/UBERON_0007362,1.0000
+reticulum,stellate reticulum,http://purl.obolibrary.org/obo/UBERON_0006950,0.7261
+saliva,saliva,http://purl.obolibrary.org/obo/UBERON_0001836,1.0000
+oronasopharynx,nasopharynx,http://purl.obolibrary.org/obo/UBERON_0001728,0.7058
+sinus(es),sinus venosus,http://purl.obolibrary.org/obo/UBERON_0002063,0.7685
+skeletal muscle,skeletal muscle tissue,http://purl.obolibrary.org/obo/UBERON_0001134,0.8582
+skin,skin of body,http://purl.obolibrary.org/obo/UBERON_0002097,0.8300
+small intestine,small intestine,http://purl.obolibrary.org/obo/UBERON_0002108,1.0000
+small intestine,small intestine,http://purl.obolibrary.org/obo/UBERON_0002108,1.0000
+abo,abomasum,http://purl.obolibrary.org/obo/UBERON_0007358,0.5669
+sm intestine,intestine,http://purl.obolibrary.org/obo/UBERON_0000160,0.8384
+spiral intestine,spiral valve of intestine,http://purl.obolibrary.org/obo/UBERON_0010016,0.8341
+spiral valve,spiral valve of intestine,http://purl.obolibrary.org/obo/UBERON_0010016,0.7531
+spleen,spleen,http://purl.obolibrary.org/obo/UBERON_0002106,1.0000
+spleen,spleen,http://purl.obolibrary.org/obo/UBERON_0002106,1.0000
+liver,liver,http://purl.obolibrary.org/obo/UBERON_0002107,1.0000
+stifle region,spatial region,http://purl.obolibrary.org/obo/BFO_0000006,0.6825
+stomach,stomach,http://purl.obolibrary.org/obo/UBERON_0000945,1.0000
+stomach #1,stomach,http://purl.obolibrary.org/obo/UBERON_0000945,0.7423
+stomach,stomach,http://purl.obolibrary.org/obo/UBERON_0000945,1.0000
+intestine,intestine,http://purl.obolibrary.org/obo/UBERON_0000160,1.0000
+stomach,stomach,http://purl.obolibrary.org/obo/UBERON_0000945,1.0000
+rectum,rectum,http://purl.obolibrary.org/obo/UBERON_0001052,1.0000
+stomach wall (cysts),abdominal wall,http://purl.obolibrary.org/obo/UBERON_0003697,0.7025
+stomach wall (encysted),wall of stomach,http://purl.obolibrary.org/obo/UBERON_0001167,0.8607
+subcutaneous,subcutaneous preadipocyte,http://purl.obolibrary.org/obo/CL_0002583,0.6675
+subcutaneous tissue,cutaneous elastic tissue,http://purl.obolibrary.org/obo/UBERON_0003967,0.8062
+swim bladder,swim bladder,http://purl.obolibrary.org/obo/UBERON_0006860,1.0000
+throat,throat,http://purl.obolibrary.org/obo/UBERON_0000341,1.0000
+tissue,tissue,http://purl.obolibrary.org/obo/UBERON_0000479,1.0000
+trachea,trachea,http://purl.obolibrary.org/obo/UBERON_0003126,1.0000
+trachea,trachea,http://purl.obolibrary.org/obo/UBERON_0003126,1.0000
+bronchi,bronchus,http://purl.obolibrary.org/obo/UBERON_0002185,0.8626
+trunk,trunk,http://purl.obolibrary.org/obo/UBERON_0002100,1.0000
+unattached,unidirectional,http://purl.obolibrary.org/obo/PATO_0001902,0.5996
+urinary bladder,urinary bladder,http://purl.obolibrary.org/obo/UBERON_0001255,1.0000
+urine,urine,http://purl.obolibrary.org/obo/UBERON_0001088,1.0000
+vena cava,vena cava,http://purl.obolibrary.org/obo/UBERON_0004087,1.0000
+ventral colon,transverse colon,http://purl.obolibrary.org/obo/UBERON_0001157,0.7353
+ventriculus,cardiac ventricle,http://purl.obolibrary.org/obo/UBERON_0002082,0.8507
+visceral ligaments,visceral fascia,http://purl.obolibrary.org/obo/UBERON_0011237,0.7516
+Bones,arm bone,http://purl.obolibrary.org/obo/UBERON_0003460,0.8000
+bud;flower,flower bud,http://purl.obolibrary.org/obo/PO_0000056,0.8366
+bud;seed;vegetation,reproductive bud,http://purl.obolibrary.org/obo/PO_0025084,0.7141
+flower;bud;vegetation,flower bud,http://purl.obolibrary.org/obo/PO_0000056,0.8045
+fruit,fruit,http://purl.obolibrary.org/obo/PO_0009001,1.0000
+fruit;seed,fruit,http://purl.obolibrary.org/obo/PO_0009001,0.8028
+gall,Gallus,http://purl.obolibrary.org/obo/NCBITaxon_9030,0.8370
+scale,scale,http://purl.obolibrary.org/obo/UBERON_0002542,1.0000
+test,testa,http://purl.obolibrary.org/obo/PO_0020057,0.6881
+tube (fleshy),tube,http://purl.obolibrary.org/obo/UBERON_0000025,0.7827
+vegetation,vegetation layer,http://purl.obolibrary.org/obo/ENVO_01000355,0.7481
+vegetation;flower,flower,http://purl.obolibrary.org/obo/PO_0009046,0.7681
+house,house,http://purl.obolibrary.org/obo/ENVO_01000417,1.0000
+NEEDLE,hypodermic needle,http://purl.obolibrary.org/obo/ENVO_02000000,0.6696
+operculum,parietal operculum,http://purl.obolibrary.org/obo/UBERON_0002911,0.8645
+root,root,http://purl.obolibrary.org/obo/NCBITaxon_1,1.0000
+UNKNOWN,obsolete unspecified,http://purl.obolibrary.org/obo/UBERON_0006336,0.4590
+WOOD,wood,http://purl.obolibrary.org/obo/ENVO_00002040,1.0000
