@@ -1,0 +1,59 @@
+input	output
+male	http://purl.obolibrary.org/obo/PATO_0000384
+msle	http://purl.obolibrary.org/obo/PATO_0000384
+m	http://purl.obolibrary.org/obo/PATO_0000384
+ma	http://purl.obolibrary.org/obo/PATO_0000384
+masculino	http://purl.obolibrary.org/obo/PATO_0000384
+female	http://purl.obolibrary.org/obo/PATO_0000383
+Famale	http://purl.obolibrary.org/obo/PATO_0000383
+fe	http://purl.obolibrary.org/obo/PATO_0000383
+fe a.e.	http://purl.obolibrary.org/obo/PATO_0000383
+feale	http://purl.obolibrary.org/obo/PATO_0000383
+femael	http://purl.obolibrary.org/obo/PATO_0000383
+femaie	http://purl.obolibrary.org/obo/PATO_0000383
+femal	http://purl.obolibrary.org/obo/PATO_0000383
+femlae	http://purl.obolibrary.org/obo/PATO_0000383
+femnale	http://purl.obolibrary.org/obo/PATO_0000383
+fenale	http://purl.obolibrary.org/obo/PATO_0000383
+f	http://purl.obolibrary.org/obo/PATO_0000383
+juvenile	http://purl.obolibrary.org/obo/PATO_0001190
+juv	http://purl.obolibrary.org/obo/PATO_0001190
+juv.	http://purl.obolibrary.org/obo/PATO_0001190
+j	http://purl.obolibrary.org/obo/PATO_0001190
+macho	http://purl.obolibrary.org/obo/PATO_0000384
+hembra	http://purl.obolibrary.org/obo/PATO_0000383
+hermbra	http://purl.obolibrary.org/obo/PATO_0000383
+h	http://purl.obolibrary.org/obo/PATO_0000383
+nymph	http://purl.obolibrary.org/obo/PATO_0001185
+larva	http://purl.obolibrary.org/obo/PATO_0001185
+larvae	http://purl.obolibrary.org/obo/PATO_0001185
+hermaphrodite	http://purl.obolibrary.org/obo/PATO_0001340
+hermaphroditic	http://purl.obolibrary.org/obo/PATO_0001340
+worker	worker bee
+drone	drone bee
+queen	queen bee
+quenn	queen bee
+alate	alate
+immature	http://purl.obolibrary.org/obo/PATO_0001501
+imm	http://purl.obolibrary.org/obo/PATO_0001501
+mature	http://purl.obolibrary.org/obo/PATO_0001701
+undetermined	unknown
+Indeterminado	unknown
+unknown	unknown
+not determined	unknown
+unidentified	unidentified
+desconocido	unknown
+not recorded	not recorded
+recorded as unknown	unknown
+gynandromorph	gynandromorph
+gyne	gyne
+pupa	http://purl.obolibrary.org/obo/PATO_0001187
+pupal	http://purl.obolibrary.org/obo/PATO_0001187
+egg	http://purl.obolibrary.org/obo/UBERON_0000068
+egg case	http://purl.obolibrary.org/obo/UBERON_0000068
+egg sac	http://purl.obolibrary.org/obo/UBERON_0000068
+female from the same collection ret	http://purl.obolibrary.org/obo/PATO_0000383
+ternero	calf
+ternera	heifer
+adult	http://purl.obolibrary.org/obo/PATO_0001701
+gravid	http://purl.obolibrary.org/obo/UBERON_0009097
