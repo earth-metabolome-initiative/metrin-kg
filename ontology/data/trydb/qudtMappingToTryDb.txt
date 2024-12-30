@@ -43,10 +43,10 @@ g g-1,GM-PER-GM
 g/g,GM-PER-GM
 g,GM
 g ?,GM
-g  kg-1,GM-PER-KiloGM 
+g  kg-1,GM-PER-KiloGM
 g kg-1,GM-PER-KiloGM
 g/kg,GM-PER-KiloGM
-g/kg,GM-PER-KiloGM 
+g/kg,GM-PER-KiloGM
 g  m-2,GM-PER-M2
 g m2,GM-PER-M2
 g m-2,GM-PER-M2
