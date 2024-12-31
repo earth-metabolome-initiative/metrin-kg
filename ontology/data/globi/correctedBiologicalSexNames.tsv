@@ -21,13 +21,13 @@ femnale	http://purl.obolibrary.org/obo/PATO_0000383
 fenale	http://purl.obolibrary.org/obo/PATO_0000383
 young female	http://purl.obolibrary.org/obo/PATO_0000383
 female  dark form	http://purl.obolibrary.org/obo/PATO_0000383
-female holo	female holotype
-femaleholotype	female holotype
-female paratype	female paratype
-femaleparatype	female paratype
-male holo	male holotype
-male paratype	male paratype
-maleparatype	male paratype
+female holo	https://purl.org/emi/biological-sex#female%20holotype
+femaleholotype	https://purl.org/emi/biological-sex#female%20holotype
+female paratype	https://purl.org/emi/biological-sex#female%20paratype
+femaleparatype	https://purl.org/emi/biological-sex#female%20paratype
+male holo	https://purl.org/emi/biological-sex#male%20holotype
+male paratype	https://purl.org/emi/biological-sex#male%20paratype
+maleparatype	https://purl.org/emi/biological-sex#male%20paratype
 f	http://purl.obolibrary.org/obo/PATO_0000383
 fff	http://purl.obolibrary.org/obo/PATO_0000383
 ffff	http://purl.obolibrary.org/obo/PATO_0000383
@@ -49,43 +49,43 @@ larva	http://purl.obolibrary.org/obo/PATO_0001185
 larvae	http://purl.obolibrary.org/obo/PATO_0001185
 hermaphrodite	http://purl.obolibrary.org/obo/PATO_0001340
 hermaphroditic	http://purl.obolibrary.org/obo/PATO_0001340
-worker	worker bee
-major worker	worker bee
-drone	drone bee
-queen	queen bee
-quenn	queen bee
-female (queen)	queen bee 
-female, queen	queen bee
-female (Queen)	queen bee
-Female, queen	queen bee
-Female (Queen)	queen bee
-Female Queen	queen bee
-female queen	queen bee
-alate	alate
+worker	https://purl.org/emi/biological-sex#worker%20bee
+major worker	https://purl.org/emi/biological-sex#worker%20bee
+drone	https://purl.org/emi/biological-sex#drone%20bee
+queen	https://purl.org/emi/biological-sex#queen%20bee
+quenn	https://purl.org/emi/biological-sex#queen%20bee
+female (queen)	https://purl.org/emi/biological-sex#queen%20bee
+female, queen	https://purl.org/emi/biological-sex#queen%20bee
+female (Queen)	https://purl.org/emi/biological-sex#queen%20bee
+Female, queen	https://purl.org/emi/biological-sex#queen%20bee
+Female (Queen)	https://purl.org/emi/biological-sex#queen%20bee
+Female Queen	https://purl.org/emi/biological-sex#queen%20bee
+female queen	https://purl.org/emi/biological-sex#queen%20bee
+alate	https://purl.org/emi/biological-sex#alate
 immature	http://purl.obolibrary.org/obo/PATO_0001501
 imm	http://purl.obolibrary.org/obo/PATO_0001501
 mature	http://purl.obolibrary.org/obo/PATO_0001701
-undetermined	unknown
-Indeterminado	unknown
-unknown	unknown
-not determined	unknown
-unidentified	unidentified
-unidentifiyed	unidentified
-could not be determinmed	unidentified
-unknowable sex	unknown
-unknown sex	unknown
-undet	unknown
-fe a 	unknown
-x	unknown
-ref!	unknown
-desconocido	unknown
-not recorded	not recorded
-recorded as unknown	unknown
-unkown	unknown
-ukown	unknown
-sex unknown	unknown
-gynandromorph	gynandromorph
-gyne	gyne
+undetermined	https://purl.org/emi/biological-sex#unknown
+Indeterminado	https://purl.org/emi/biological-sex#unknown
+unknown	https://purl.org/emi/biological-sex#unknown
+not determined	https://purl.org/emi/biological-sex#unknown
+unidentified	https://purl.org/emi/biological-sex#unidentified
+unidentifiyed	https://purl.org/emi/biological-sex#unidentified
+could not be determinmed	https://purl.org/emi/biological-sex#unidentified
+unknowable sex	https://purl.org/emi/biological-sex#unknown
+unknown sex	https://purl.org/emi/biological-sex#unknown
+undet	https://purl.org/emi/biological-sex#unknown
+fe a 	https://purl.org/emi/biological-sex#unknown
+x	https://purl.org/emi/biological-sex#unknown
+ref!	https://purl.org/emi/biological-sex#unknown
+desconocido	https://purl.org/emi/biological-sex#unknown
+not recorded	https://purl.org/emi/biological-sex#not%20recorded
+recorded as unknown	https://purl.org/emi/biological-sex#unknown
+unkown	https://purl.org/emi/biological-sex#unknown
+ukown	https://purl.org/emi/biological-sex#unknown
+sex unknown	https://purl.org/emi/biological-sex#unknown
+gynandromorph	https://purl.org/emi/biological-sex#gynandromorph
+gyne	https://purl.org/emi/biological-sex#gyne
 pupa	http://purl.obolibrary.org/obo/PATO_0001187
 pupal	http://purl.obolibrary.org/obo/PATO_0001187
 egg	http://purl.obolibrary.org/obo/UBERON_0000068
@@ -93,21 +93,21 @@ egg case	http://purl.obolibrary.org/obo/UBERON_0000068
 egg sac	http://purl.obolibrary.org/obo/UBERON_0000068
 egg with female inside	http://purl.obolibrary.org/obo/UBERON_0000068
 female from the same collection ret	http://purl.obolibrary.org/obo/PATO_0000383
-ternero	calf
-ternera	heifer
+ternero	https://purl.org/emi/biological-sex#calf
+ternera	https://purl.org/emi/biological-sex#heifer
 adult	http://purl.obolibrary.org/obo/PATO_0001701
 gravid	http://purl.obolibrary.org/obo/UBERON_0009097
 gravid female	http://purl.obolibrary.org/obo/UBERON_0009097
 gravid_female	http://purl.obolibrary.org/obo/UBERON_0009097
-monoecious	monoecious
-autoecious	autoecious
-male autoicous	male autoecious
-male (autoicous)	male autoecious
-male [autoicous]	male autoecious
-both	mixed
-mix	mixed
-sexes mixed	mixed
-vario	mixed
-sub-male	sub male
-sub-female	sub female
-prosoma	prosoma
+monoecious	https://purl.org/emi/biological-sex#monoecious
+autoecious	https://purl.org/emi/biological-sex#autoecious
+male autoicous	https://purl.org/emi/biological-sex#male%20autoecious
+male (autoicous)	https://purl.org/emi/biological-sex#male%20autoecious
+male [autoicous]	https://purl.org/emi/biological-sex#male%20autoecious
+both	https://purl.org/emi/biological-sex#mixed
+mix	https://purl.org/emi/biological-sex#mixed
+sexes mixed	https://purl.org/emi/biological-sex#mixed
+vario	https://purl.org/emi/biological-sex#mixed
+sub-male	https://purl.org/emi/biological-sex#sub%20male
+sub-female	https://purl.org/emi/biological-sex#sub%20female
+prosoma	https://purl.org/emi/biological-sex#prosoma
