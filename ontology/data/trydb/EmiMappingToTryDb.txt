@@ -4,7 +4,7 @@ origUnit,mapUnit
 1/kg,https://purl.org/emi/unit#1%2Fkg
 1/lb,https://purl.org/emi/unit#1%2Flb
 1/lb (lb~454g),https://purl.org/emi/unit#1%2Flb
-1/liter (liter~1,7kg),https://purl.org/emi/unit#1%2Fliter
+"1/liter (liter~1,7kg)",https://purl.org/emi/unit#1%2Fliter
 1/pound,https://purl.org/emi/unit#1%2Fpound
 % by wt,https://purl.org/emi/unit#%25%20by%20wt
 C,https://purl.org/emi/unit#C
@@ -54,7 +54,7 @@ gC gN-1,https://purl.org/emi/unit#gC%20gN-1
 gC kg-1,https://purl.org/emi/unit#gC%20kg-1
 (g/cm2),https://purl.org/emi/unit#g%20cm-2
 g cm-2,https://purl.org/emi/unit#g%20cm-2
-g/cm2   https://purl.org/emi/unit#g%20cm-2
+g/cm2,https://purl.org/emi/unit#g%20cm-2
 gC/m2,https://purl.org/emi/unit#gC%2Fm2
 g(C)/m2/yr,https://purl.org/emi/unit#g%28C%29%2Fm2%2Fyr
 (g/cm3)*100,https://purl.org/emi/unit#%28g%2Fcm3%29%2A100
@@ -66,7 +66,7 @@ g P g-1 DW,https://purl.org/emi/unit#g%20P%20g-1%20DW
 (H2O),https://purl.org/emi/unit#H2O
 H2O,https://purl.org/emi/unit#H2O
 ha-1,https://purl.org/emi/unit#ha-1
-H-SLA   https://purl.org/emi/unit#H-SLA
+H-SLA,https://purl.org/emi/unit#H-SLA
 kg N ha-1 y-1,https://purl.org/emi/unit#kg%20N%20ha-1%20y-1
 kgNha-1yr-1,https://purl.org/emi/unit#kgNha-1yr-1
 kJ m2 d?1,https://purl.org/emi/unit#kJ%20m2%20d
@@ -155,12 +155,11 @@ ug N / g soil (6 weeks),https://purl.org/emi/unit#ug%20N%20%2F%20g%20soil%20%286
 ug N/g soil/year,https://purl.org/emi/unit#ug%20N%2Fg%20soil%2Fyear
 units,https://purl.org/emi/unit#units
 Units,https://purl.org/emi/unit#units
-(upper, middle, lower),https://purl.org/emi/unit#%28upper%2C%20middle%2C%20lower%29
 UTM Zone 16N,https://purl.org/emi/unit#UTM%20Zone%2016N
 W7m2,https://purl.org/emi/unit#W7m2
 weeks,https://purl.org/emi/unit#weeks
 WGS84,https://purl.org/emi/unit#WGS84
-without petiole, mmВ/mg,https://purl.org/emi/unit#without%20petiole%2C%20mm%D0%92%2Fmg
+"without petiole, mmВ/mg",https://purl.org/emi/unit#without%20petiole%2C%20mm%D0%92%2Fmg
 %wt,https://purl.org/emi/unit#%25wt
 xxА.yy' E,https://purl.org/emi/unit#xx%D0%90.yy%27%20E
 xxА.yy' N,https://purl.org/emi/unit#xx%D0%90.yy%27%20N
