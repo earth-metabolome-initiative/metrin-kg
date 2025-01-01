@@ -1,8 +1,13 @@
-origUnit,qudtUnit
+origUnit,mapUnit
 1/ha,HA
 1/m2,PER-M2
 cm2,CentiM2
+(cm2),CentiM2
+cm 2,CentiM2
+cm^2,CentiM2
 cm,CentiM
+(cm),CentiM
+Cm,CentiM
 cmol,CentiMOL
 cmolc kg-1,CentiMOL-PER-KiloGM
 cmol/kg(1/2Ca2+),CentiMOL-PER-KiloGM
@@ -26,8 +31,6 @@ degrees C,DEG_C
 degrees,DEG
 dimensionless,UNITLESS
 dm2,DeciM2
-%DM,MillGM-PER-GM
-% dry mass,MilliGM-PER-GM
 dS m-1,DeciS-PER-M
 dS/m,DeciS-PER-M
 feet,FT
@@ -45,7 +48,6 @@ g,GM
 g ?,GM
 g  kg-1,GM-PER-KiloGM
 g kg-1,GM-PER-KiloGM
-g/kg,GM-PER-KiloGM
 g/kg,GM-PER-KiloGM
 g  m-2,GM-PER-M2
 g m2,GM-PER-M2
@@ -103,6 +105,7 @@ m.a.s.l.,M
 masl,M
 meter,M
 Meter,M
+m,M
 meters above ground,M
 mg/cm2,MilliGM-PER-CentiM2
 mg/cm3,MilliGM-PER-CentiM3
@@ -115,7 +118,6 @@ mg/g DW,MilliGM-PER-GM
 mg / g,MilliGM-PER-GM
 mg/g,MilliGM-PER-GM
 mg kg1,MilliGM-PER-KiloGM
-mg kg-1,MilliGM-PER-KiloGM
 mg kg-1,MilliGM-PER-KiloGM
 mg Kg-1,MilliGM-PER-KiloGM
 mg/kg,MilliGM-PER-KiloGM
@@ -164,6 +166,7 @@ ml,MilliL
 m,M
 m,M
 mm2,MilliM2
+mm^2,MilliM2
 mm a-1,MilliM-PER-YR
 mm m-1,MilliM-PER-M
 (mm),MilliM
@@ -192,9 +195,11 @@ MPa,MegaPA
 m s-1,M-PER-SEC
 mV,MilliV
 no unit,UNITLESS
-% of ECEC,PERCENT
 Pa,PA
 %,PERCENT
+% (?),PERCENT
+%?,PERCENT
+(%),PERCENT
 percent,PERCENT
 ppm,PPM
 SLA cm2/g,CentiM2-PER-GM
