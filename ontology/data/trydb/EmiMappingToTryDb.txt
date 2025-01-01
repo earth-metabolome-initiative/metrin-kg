@@ -1,0 +1,171 @@
+origUnit,mapUnit
+% (100 * g g-1 ),https://purl.org/emi/unit#%25%20%28100%20%2A%20g%20g-1%20%29
+1/g,https://purl.org/emi/unit#1%2Fg
+1/kg,https://purl.org/emi/unit#1%2Fkg
+1/lb,https://purl.org/emi/unit#1%2Flb
+1/lb (lb~454g),https://purl.org/emi/unit#1%2Flb
+1/liter (liter~1,7kg),https://purl.org/emi/unit#1%2Fliter
+1/pound,https://purl.org/emi/unit#1%2Fpound
+% by wt,https://purl.org/emi/unit#%25%20by%20wt
+C,https://purl.org/emi/unit#C
+(cm2/g)/100,https://purl.org/emi/unit#%28cm2%2Fg%29%2F100
+cm2 g-1,https://purl.org/emi/unit#cm2%20g-1
+(cm2 g-1),https://purl.org/emi/unit#cm2%20g-1
+cm2*g-1,https://purl.org/emi/unit#cm2%20g-1
+cm2.g-1,https://purl.org/emi/unit#cm2%20g-1
+cm^2 g^-1,https://purl.org/emi/unit#cm2%20g-1
+cm2/gDW,https://purl.org/emi/unit#cm2%2FgDW
+(cm2/g),https://purl.org/emi/unit#cm2%20g-1
+cm2 / g,https://purl.org/emi/unit#cm2%20g-1
+cm-2 g,https://purl.org/emi/unit#cm-2%20g
+cm2/ g,https://purl.org/emi/unit#cm2%20g-1
+cm2/g,https://purl.org/emi/unit#cm2%20g-1
+cm2.g,https://purl.org/emi/unit#cm2.g
+cm^2/g,https://purl.org/emi/unit#cm2%20g-1
+cm2/g (n.r.),https://purl.org/emi/unit#cm2%20g-1
+cm2 mg-1,https://purl.org/emi/unit#cm2%20mg-1
+cm2mg-1,https://purl.org/emi/unit#cm2%20mg-1
+cm2/mg,https://purl.org/emi/unit#cm2%20mg-1
+cm2Зg-1,https://purl.org/emi/unit#cm2%20g-1
+cm3/g,https://purl.org/emi/unit#cm3%20g-1
+cm3,https://purl.org/emi/unit#cm3
+cm3/mg,https://purl.org/emi/unit#cm3%20mg-1
+cm per 6 month,https://purl.org/emi/unit#cm%20per%206%20month
+cmВg-1,https://purl.org/emi/unit#cmB%20g-1
+cmВ/g,https://purl.org/emi/unit#cmB%20g-1
+cmВ.g,https://purl.org/emi/unit#cmB%20g
+cmВ,https://purl.org/emi/unit#cmB
+date,https://purl.org/emi/unit#date
+day,https://purl.org/emi/unit#day
+days,https://purl.org/emi/unit#days
+DDM,https://purl.org/emi/unit#DDM
+[dd/mm/yyyy],https://purl.org/emi/unit#dd%2Fmm%2Fyyyy
+dd/mm/yyyy,https://purl.org/emi/unit#dd%2Fmm%2Fyyyy
+d/y,https://purl.org/emi/unit#d%2Fy
+E,https://purl.org/emi/unit#E
+% field capacity,https://purl.org/emi/unit#%25%20field%20capacity
+% full sun,https://purl.org/emi/unit#%25%20full%20sun
+g / 1000 seeds,https://purl.org/emi/unit#g%2F1000%20seeds
+g/1000 seeds,https://purl.org/emi/unit#g%2F1000%20seeds
+g/100g,https://purl.org/emi/unit#g%2F100g
+g/100 seeds,https://purl.org/emi/unit#g%2F100%20seeds
+g C g-1 DW,https://purl.org/emi/unit#g%20C%20g-1%20DW
+gC gN-1,https://purl.org/emi/unit#gC%20gN-1
+gC kg-1,https://purl.org/emi/unit#gC%20kg-1
+(g/cm2),https://purl.org/emi/unit#g%20cm-2
+g cm-2,https://purl.org/emi/unit#g%20cm-2
+g/cm2   https://purl.org/emi/unit#g%20cm-2
+gC/m2,https://purl.org/emi/unit#gC%2Fm2
+g(C)/m2/yr,https://purl.org/emi/unit#g%28C%29%2Fm2%2Fyr
+(g/cm3)*100,https://purl.org/emi/unit#%28g%2Fcm3%29%2A100
+g /(cm3*10),https://purl.org/emi/unit#g%2F%28cm3%2A10%29
+gDM m-2,https://purl.org/emi/unit#gDM%20m-2
+g N g-1 DW,https://purl.org/emi/unit#g%20N%20g-1%20DW
+gN kg-1,https://purl.org/emi/unit#gN%20kg-1
+g P g-1 DW,https://purl.org/emi/unit#g%20P%20g-1%20DW
+(H2O),https://purl.org/emi/unit#H2O
+H2O,https://purl.org/emi/unit#H2O
+ha-1,https://purl.org/emi/unit#ha-1
+H-SLA   https://purl.org/emi/unit#H-SLA
+kg N ha-1 y-1,https://purl.org/emi/unit#kg%20N%20ha-1%20y-1
+kgNha-1yr-1,https://purl.org/emi/unit#kgNha-1yr-1
+kJ m2 d?1,https://purl.org/emi/unit#kJ%20m2%20d
+kJ m-2 day-1,https://purl.org/emi/unit#kJ%20m-2%20day-1
+log(lx),https://purl.org/emi/unit#log%28lx%29
+mass%,https://purl.org/emi/unit#mass%25
+% mass/mass,https://purl.org/emi/unit#%25%20mass%2Fmass
+% of ECEC,https://purl.org/emi/unit#%25%20of%20ECEC
+%DM,https://purl.org/emi/unit#%25DM
+% dry mass,https://purl.org/emi/unit#%25%20dry%20mass
+m/dd/yyyy,https://purl.org/emi/unit#mm%2Fdd%2Fyyyy
+m/d/y,https://purl.org/emi/unit#m%2Fd%2Fy
+meq/100 g,https://purl.org/emi/unit#meq%2F100%20g
+mg/1000,https://purl.org/emi/unit#mg%2F1000
+mg/100g,https://purl.org/emi/unit#mg%2F100g
+mg/100,https://purl.org/emi/unit#mg%2F100
+mg/100 seeds,https://purl.org/emi/unit#mg%2F100%20seeds
+mg/10g,https://purl.org/emi/unit#mg%2F10g
+mg C g-1Leaf,https://purl.org/emi/unit#mg%20C%20g-1Leaf
+mgC gDM-1,https://purl.org/emi/unit#mgC%20gDM-1
+mg/dm2,https://purl.org/emi/unit#mg%2Fdm2
+mg/mg *100,https://purl.org/emi/unit#mg%2Fmg%20%2A100
+mg mm-2,https://purl.org/emi/unit#mg%20mm-2
+mg mm2,https://purl.org/emi/unit#mg%20mm2
+mg/mm2,https://purl.org/emi/unit#mg%20mm-2
+mg / mm3,https://purl.org/emi/unit#mg%20%mm-3
+mg mm-3,https://purl.org/emi/unit#mg%20mm-3
+mg/mm3,https://purl.org/emi/unit#mg%20mm-3
+mg/mm^3,https://purl.org/emi/unit#mg%20mm-3
+mg N/g d.w./day,https://purl.org/emi/unit#mg%20N%2Fg%20d.w.%2Fday
+mgN/kg/day,https://purl.org/emi/unit#mgN%2Fkg%2Fday
+mico mol m-1 s-1,https://purl.org/emi/unit#mico%20mol%20m-1%20s-1
+micro gx10,https://purl.org/emi/unit#micro%20gx10
+micro m,https://purl.org/emi/unit#micro%20m
+micro mol m-2 s-1,https://purl.org/emi/unit#micro%20mol%20m-2%20s-1
+MJm-2d-1,https://purl.org/emi/unit#MJm-2d-1
+mm2 g 10-6,https://purl.org/emi/unit#mm2%20g%2010-6
+mm2 g-1,https://purl.org/emi/unit#mm2%20g-1
+mm2/g,https://purl.org/emi/unit#mm2%20g-1
+(mm2 mg-1)/10,https://purl.org/emi/unit#%28mm2%20mg-1%29%2F10
+mm2  mg-1,https://purl.org/emi/unit#mm2%20mg-1
+mm2 mg-1,https://purl.org/emi/unit#mm2%20mg-1
+mm2 mg1,https://purl.org/emi/unit#mm2%20mg-1
+mm2*mg-1,https://purl.org/emi/unit#mm2%20mg-1
+mm2/mg-1,https://purl.org/emi/unit#mm2%20mg-1
+mm2mg-1,https://purl.org/emi/unit#mm2%20mg-1
+mm2 mgDM-1,https://purl.org/emi/unit#mm2%20mgDM-1
+mm2 / mg,https://purl.org/emi/unit#mm2%20mg-1
+mm2/mg,https://purl.org/emi/unit#mm2%20mg-1
+mm^2/mg,https://purl.org/emi/unit#mm2%20mg-1
+mm2Зmg-1,https://purl.org/emi/unit#mm2%20mg-1
+mm/dd/yyyy,https://purl.org/emi/unit#mm%2Fdd%2Fyyyy
+mm/mg,https://purl.org/emi/unit#mm%20mg-1
+mm mm-1,https://purl.org/emi/unit#mm%20mm-1
+mm/mm,https://purl.org/emi/unit#mm%20mm-1
+mm/mmВ,https://purl.org/emi/unit#mm%2Fmm%D0%92
+mm month-1,https://purl.org/emi/unit#mm%20month-1
+mm/month,https://purl.org/emi/unit#mm%20month-1
+mm.yyyy,https://purl.org/emi/unit#mm.yyyy
+mmВ,https://purl.org/emi/unit#mmB
+mmВ mg-1,https://purl.org/emi/unit#mmB%20mg-1
+mmВ/mg,https://purl.org/emi/unit#mmB%20mg-1
+mo,https://purl.org/emi/unit#mo
+mol N/L,https://purl.org/emi/unit#mol%20N%2FL
+mol photon m-2,https://purl.org/emi/unit#mol%20photon%20m-2
+(mВ kg-1),https://purl.org/emi/unit#mB%20kg-1
+mВ kg-1,https://purl.org/emi/unit#mB%20kg-1
+mВ Kg-1,https://purl.org/emi/unit#mB%20kg-1
+mВ/kg,https://purl.org/emi/unit#mB%20kg-1
+N,https://purl.org/emi/unit#N
+North,https://purl.org/emi/unit#North
+Nreleased/acre,https://purl.org/emi/unit#Nreleased%2Facre
+oC,https://purl.org/emi/unit#oC
+permil,https://purl.org/emi/unit#permil
+PST,https://purl.org/emi/unit#PST
+S,https://purl.org/emi/unit#S
+SM,https://purl.org/emi/unit#SM
+spec/m2,https://purl.org/emi/unit#spec%2Fm2
+stems ha-1,https://purl.org/emi/unit#stems%20ha-1
+t,https://purl.org/emi/unit#t
+t m3,https://purl.org/emi/unit#t%20m3
+t/m3,https://purl.org/emi/unit#t%20m-3
+trees ha-1,https://purl.org/emi/unit#trees%20ha-1
+(uE m2 s-1),https://purl.org/emi/unit#uE%20m2%20s-1
+ug N / g soil (6 weeks),https://purl.org/emi/unit#ug%20N%20%2F%20g%20soil%20%286%20weeks%29
+ug N/g soil/year,https://purl.org/emi/unit#ug%20N%2Fg%20soil%2Fyear
+units,https://purl.org/emi/unit#units
+Units,https://purl.org/emi/unit#units
+(upper, middle, lower),https://purl.org/emi/unit#%28upper%2C%20middle%2C%20lower%29
+UTM Zone 16N,https://purl.org/emi/unit#UTM%20Zone%2016N
+W7m2,https://purl.org/emi/unit#W7m2
+weeks,https://purl.org/emi/unit#weeks
+WGS84,https://purl.org/emi/unit#WGS84
+without petiole, mmВ/mg,https://purl.org/emi/unit#without%20petiole%2C%20mm%D0%92%2Fmg
+%wt,https://purl.org/emi/unit#%25wt
+xxА.yy' E,https://purl.org/emi/unit#xx%D0%90.yy%27%20E
+xxА.yy' N,https://purl.org/emi/unit#xx%D0%90.yy%27%20N
+yr-mo-dy,https://purl.org/emi/unit#yr-mo-dy
+YYYY/MM/DD,https://purl.org/emi/unit#YYYY%2FMM%2FDD
+yyyymmdd,https://purl.org/emi/unit#yyyymmdd
+Еg mg-1,https://purl.org/emi/unit#%D0%95g%20mg-1
+ЕScm-1,https://purl.org/emi/unit#%D0%95Scm-1
