@@ -1,13 +1,19 @@
 origUnit,mapUnit
+C,DEG_C
+oC,DEG_C
 1/ha,HA
 1/m2,PER-M2
 cm2,CentiM2
 (cm2),CentiM2
 cm 2,CentiM2
 cm^2,CentiM2
+cm2/gDW,CentiM2-PER-GM
+cm-2 g,CentiM2-PER-GM
+cm2.g,CentiM2-PER-GM
 cm,CentiM
 (cm),CentiM
 Cm,CentiM
+cm per 6 month,CentiM
 cmol,CentiMOL
 cmolc kg-1,CentiMOL-PER-KiloGM
 cmol/kg(1/2Ca2+),CentiMOL-PER-KiloGM
@@ -34,7 +40,11 @@ dm2,DeciM2
 dS m-1,DeciS-PER-M
 dS/m,DeciS-PER-M
 feet,FT
+mmВ,MilliM2
+W7m2,W-PER-M2
+ЕScm-1,MicroS-PER-CentiM
 g/1000,MilliGM
+ug N / g soil (6 weeks),MicroGM-PER-GM
 g_cm3-1,GM-PER-CentiM3
 g / cm3,GM-PER-CentiM3
 g cm-3,GM-PER-CentiM3
@@ -44,9 +54,19 @@ g/cm3,GM-PER-CentiM3
 g/dm3,GM-PER-CentiM3
 g g-1,GM-PER-GM
 g/g,GM-PER-GM
+g N g-1 DW,GM-PER-GM
+g P g-1 DW,GM-PER-GM
 g,GM
 g ?,GM
+(H2O),PH
+H2O,PH
+ha-1,NUM-PER-HA
+stems ha-1,NUM-PER-HA
+trees ha-1,NUM-PER-HA
+gC gN-1,NUM
 g  kg-1,GM-PER-KiloGM
+gC kg-1,GM-PER-KiloGM
+gN kg-1,GM-PER-KiloGM
 g kg-1,GM-PER-KiloGM
 g/kg,GM-PER-KiloGM
 g  m-2,GM-PER-M2
@@ -187,8 +207,10 @@ mol/m2/day,MOL-PER-M2-DAY
 mol m-2 s-1,MOL-PER-M2-SEC
 mol m-2s-1,MOL-PER-M2-SEC
 mol/m3,MOL-PER-M3
+mol photon m-2,MOL-PER-M2
 ?mol mol-1,MOL-PER-MOL
 month from Jan1st,MO
+mo,MO
 month,MO
 months,MO
 MPa,MegaPA
@@ -200,6 +222,16 @@ Pa,PA
 % (?),PERCENT
 %?,PERCENT
 (%),PERCENT
+% (100 * g g-1 ),PERCENT
+% by wt,PERCENT
+% field capacity,PERCENT
+% full sun,PERCENT
+mass%,PERCENT
+% mass/mass,PERCENT
+% of ECEC,PERCENT
+%DM,PERCENT
+% dry mass,PERCENT
+%wt,PERCENT
 percent,PERCENT
 ppm,PPM
 SLA cm2/g,CentiM2-PER-GM
@@ -208,6 +240,12 @@ umol/m2/s,MicroMOL-PER-M2-SEC
 umol mol-1 also the same as CO2 sample,MicroMOL-PER-MOL
 umol mol-1,MicroMOL-PER-MOL
 umol photons / m2 / sec,MicroMOL-PER-M2-SEC
+1/g,PER-GM
+1/kg,PER-KiloGM
+1/lb,PER-LB
+1/lb (lb~454g),PER-LB
+"1/liter (liter~1,7kg)",PER-L
+1/pound,PER-LB
 W,W
 (Wh m-2),W-HR-PER-M2
 w/m2,W-PER-M2
@@ -222,3 +260,26 @@ Year,YR
 yrs,YR
 yr,YR
 y,YR
+weeks,WK
+day,DAY
+days,DAY
+(cm2/g)/100,CentiM2-PER-GM
+cm2 g-1,CentiM2-PER-GM
+(cm2 g-1),CentiM2-PER-GM
+cm2*g-1,CentiM2-PER-GM
+cm2.g-1,CentiM2-PER-GM
+cm^2 g^-1,CentiM2-PER-GM
+(cm2/g),CentiM2-PER-GM
+cm2 / g,CentiM2-PER-GM
+cm2/ g,CentiM2-PER-GM
+cm2/g,CentiM2-PER-GM
+cm^2/g,CentiM2-PER-GM
+cm2/g (n.r.),CentiM2-PER-GM
+cm3/g,CentiM3-PER-GM
+cm3,CentiM3
+(g/cm2),GM-PER-CentiM2
+g cm-2,GM-PER-CentiM2
+g/cm2,GM-PER-CentiM2
+micro m,MicroM
+micro mol m-2 s-1,MicroMOL-PER-M2-SEC
+permil,PPTH
