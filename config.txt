@@ -1,0 +1,33 @@
+[input tsv files]
+globi_verbatim_file = data/raw/verbatim-interactions.tsv.gz
+tryDb_species_file = data/raw/Try20243712146549_TRY6.0_SpeciesList_TaxonomicHarmonization.csv
+trydb_file = data/raw/TRY-db-40340.txt.gz
+
+
+[wd files]
+wd_sparql_file = data/processed/wdTax_SPARQL.txt.gz 
+wd_lineage_file = data/processed/wdTax_SPARQL_lineage_filtered_aligned.txt.gz 
+wd_repeats_file = data/processed/wdTax_duplicates.txt 
+
+
+[accessory files]
+enpkg_wd = data/raw/enpkg_wd_pfId.csv.gz
+trydb_wd = data/processed/wdTax_TRYdb.txt.gz
+globi_wd = data/processed/wdTax_GloBI.txt.gz
+
+
+[knowledge graph files]
+bp_fileName = data/processed/globi/correctedBodyPartNamesGlobi.csv
+ls_fileName = data/processed/globi/correctedLifeStageNamesGlobi.csv
+bs_fileName = data/processed/globi/correctedBiologicalSexNames.tsv
+dictFileNameQudt = data/processed/trydb/qudtMappingToTryDb.txt
+dictFileNameEmi = data/processed/trydb/EmiMappingToTryDb.txt
+
+
+[output files]
+trydb_ttl = data/processed/KG/trydb_output.ttl.gz
+globi_ttl = data/processed/KG/globi_output.ttl.gz
+
+
+[processing]
+batch_size = 100000
