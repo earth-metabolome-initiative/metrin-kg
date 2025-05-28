@@ -26,7 +26,9 @@ pip install -r requirements.txt
 
 **Usage**
 
-Run the pipeline via command-line
+Examples:
+
+1. Run the pipeline via command-line
 
 `python main.py [OPTIONS]`
 
@@ -42,33 +44,35 @@ Command-Line Options
 | `--run-trydb-kg`    | Generate RDF Knowledge Graph for TRY-db                 |
 
 
-Run the full pipeline:
+2. Run the full pipeline:
 
 `python main.py --run-wd-fetcher --run-globi-match --run-trydb-match --run-globi-kg --run-trydb-kg --config config.txt`
 
 
-Run only Wikidata fetcher:
+3. Run only Wikidata fetcher:
 
 `python main.py --run-wd-fetcher --config config.txt`
 
-Run only GloBI/TRY-db taxonomy matching:
+4. Run only GloBI/TRY-db taxonomy matching:
 
 `python main.py --run-globi-match --config config.txt`
 
 `python main.py --run-trydb-match --config config.txt`
 
-Generate knowledge graph - GloBI/TRY-db:
+5. Generate knowledge graph - GloBI/TRY-db:
 
 `python main.py --run-globi-kg --config config.txt`
 
 `python main.py --run-trydb-kg --config config.txt`
 
 
-Notes
+_Notes_
 
 If you skip --run-wd-fetcher, make sure that the wd_* paths in config.txt point to valid, existing files.
 
 Each part of the pipeline can be run independently—helpful for debugging or incremental updates.
+
+
 
 
 
@@ -79,6 +83,9 @@ Fetched taxonomy files from Wikidata (*.json)
 Matched taxa files for GloBI and TRY-db (*.tsv)
 
 RDF files representing the final knowledge graphs (*.ttl, *.rdf, etc.)
+
+
+
 
 
 **Contact**
