@@ -1,0 +1,9 @@
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX wd: <http://www.wikidata.org/entity/>
+SELECT ?WdID ?WdName ?hTax ?hTaxName ?hTaxRank WHERE {
+      ?WdID wdt:P31 wd:Q16521;
+            wdt:P225 ?WdName ;
+            wdt:P171* ?hTax .
+      ?hTax wdt:P225 ?hTaxName ;
+            wdt:P105 ?hTaxRank .
+}
