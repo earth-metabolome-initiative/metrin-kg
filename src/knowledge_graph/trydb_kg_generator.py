@@ -116,12 +116,15 @@ class TrydbKGGenerator:
                     if is_none_na_or_empty(dataset_uri):
                         graph.add((sample_uri, DCTERMS.isPartOf, dataset_uri))
                         graph.add((dataset_uri, DCTERMS.bibliographicCitation, Literal(row['Reference'], datatype=XSD.string)))
-                        batch_trip_count += 2
+                        graph.add((dataset_uri, DCTERMS.identifier, Literal(f"TRYdb-{format_uri(row['DatasetID'])}", datatype=XSD.string))) #
+                        batch_trip_count += 3 #
 
                     graph.add((observation_uri, SOSA.hasResult, result_bnode))
                     if is_none_na_or_empty(result_bnode):
                         if is_none_na_or_empty(row['TraitName']):
                             graph.add((result_bnode, RDF.type, EMI.Trait))
+                            if is_none_na_or_empty(row['TraitID']):
+                                graph.add((EMI.Trait, DCTERMS.identifier, Literal(f"TRYdb-{format_uri(row['TraitID'])}", datatype=XSD.string)))
                             batch_trip_count += 1
                             if is_none_na_or_empty(row['OrigValueStr']):
                                 pattern = r"-?[0-9]+(\.[0-9]+)?(E[+-][0-9]+)?"
@@ -140,7 +143,7 @@ class TrydbKGGenerator:
                         graph.add((result_bnode, RDFS.label, Literal(row['DataName'], datatype=XSD.string)))
                         batch_trip_count += 1
                     if is_none_na_or_empty(row['DataID']):
-                        graph.add((result_bnode, DCTERMS.identifier, Literal(row['DataID'], datatype=XSD.string)))
+                        graph.add((result_bnode, DCTERMS.identifier, Literal(f"TRYdb-{format_uri(row['DataID'])}", datatype=XSD.string)))
                         batch_trip_count += 1
 
                     if is_none_na_or_empty(row['OrigUnitStr']):
@@ -166,6 +169,9 @@ class TrydbKGGenerator:
                     if pd.notna(row['WdID']):
                         graph.add((organism_uri, EMI.inTaxon, URIRef(WD[format_uri(row['WdID'])])))
                         batch_trip_count += 1
+                    if pd.notna(row['AccSpeciesID']): #
+                        graph.add((organism_uri, DCTERMS.identifier, Literal(f"TRYdb-{format_uri(row['AccSpeciesID'])}", datatype=XSD.string))) #
+                        batch_trip_count += 1 #
 
                 batch_trip_count = add_inverse_relationships("trydb-kg-log.txt",graph, batch_trip_count)
                 total_trip_count += batch_trip_count
