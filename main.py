@@ -5,6 +5,7 @@ from src.data_acquisition.wikidata_fetcher import WikidataDataFetcher
 from src.taxonomy_matching.matcher import TaxonomyMatcher
 from src.knowledge_graph.globi_kg_generator import GlobiKGGenerator
 from src.knowledge_graph.trydb_kg_generator import TrydbKGGenerator 
+from src.ontology_matching.match_names_to_ontology import run_ontology_match
 
 
 
@@ -16,7 +17,9 @@ def main():
     parser.add_argument('--run-trydb-match', action='store_true', help="Run TRY-db taxonomy matching.")
     parser.add_argument('--run-globi-kg', action='store_true', help="Build GloBI Knowledge Graph.")
     parser.add_argument('--run-trydb-kg', action='store_true', help="Build TRY-db Knowledge Graph.")
+    parser.add_argument('--run-ontology-match', action='store_true', help="Run ontology matcher for terms.")
     args = parser.parse_args()
+
 
     config = configparser.ConfigParser()
     config.read(args.config)
@@ -75,6 +78,19 @@ def main():
         print("\n--- Running TRY-db Taxonomy Matching ---")
         trydb_matched_df = matcher.run_trydb_pipeline()
         print("TRY-db Taxonomy Matching complete.")
+
+
+    # Example: Run ontology matcher
+    if args.run_ontology_match:
+        try:
+            input_file = config.get('ontology match', 'input_file') #e.g.: data/processed/globi/verbatim_unmappedLifeStageNamesGlobi_mod.csv
+            output_file = config.get('ontology match', 'output_file')#e.g.: data/processed/globi/verbatim_mappedLifeStageNamesGlobi.csv
+            print(f"--- Running Ontology Matcher ---")
+            run_ontology_match(input_file, output_file)
+            print(f"Ontology matching complete: {output_file}")
+        except Exception as e:
+            print(f"Error matching entities to ontologies: {e}")
+
 
     # Build Knowledge Graphs 
     if args.run_globi_kg:
