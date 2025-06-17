@@ -1,4 +1,4 @@
-# emi-trydb-globi-kg
+# METRIN-KG
 Pipeline for generating the knowledge graph integrating emi, trydb, globi datasets.
 
 **Pipeline Components**
@@ -38,6 +38,7 @@ Command-Line Options
 |---------------------|---------------------------------------------------------|
 | `--config`          | Path to config file (default: `config.txt`)             |
 | `--run-wd-fetcher`  | Fetch taxonomy data from Wikidata                       |
+| `--run-ontology-match` | Match ontologies to GloBI or TRY-db terms            |
 | `--run-globi-match` | Match GloBI dataset with Wikidata taxonomies            |
 | `--run-trydb-match` | Match TRY-db dataset with Wikidata taxonomies           |
 | `--run-globi-kg`    | Generate RDF Knowledge Graph for GloBI                  |
@@ -59,7 +60,17 @@ Command-Line Options
 
 `python main.py --run-trydb-match --config config.txt`
 
-5. Generate knowledge graph - GloBI/TRY-db:
+
+4. Run only ontology matching
+
+This can be done for any of the datasets from GloBI (body part, life stages, and biological sex) and TRY-db (unit names). Specify the input and output files under `[ontology]` header in `config.txt`
+
+`python main.py --run-ontology-match --config config.txt`
+
+
+
+
+6. Generate knowledge graph - GloBI/TRY-db:
 
 `python main.py --run-globi-kg --config config.txt`
 
