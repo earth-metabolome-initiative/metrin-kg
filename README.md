@@ -1,5 +1,5 @@
 # METRIN-KG
-Pipeline for generating the knowledge graph integrating emi, trydb, globi datasets.
+Pipeline for generating the knowledge graph integrating [raw metabolite data originally used for ENPKG](https://zenodo.org/records/10827917), [TRY-db](https://www.try-db.org/TryWeb/Home.php), [GloBI](https://www.globalbioticinteractions.org/) datasets.
 
 **Pipeline Components**
 
@@ -61,7 +61,7 @@ Command-Line Options
 `python main.py --run-trydb-match --config config.txt`
 
 
-4. Run only ontology matching
+5. Run only ontology matching
 
 This can be done for any of the datasets from GloBI (body part, life stages, and biological sex) and TRY-db (unit names). Specify the input and output files under `[ontology]` header in `config.txt`
 
