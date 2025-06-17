@@ -1,5 +1,5 @@
 # METRIN-KG
-Pipeline for generating the knowledge graph integrating [raw metabolite data originally used for ENPKG](https://zenodo.org/records/10827917), [TRY-db](https://www.try-db.org/TryWeb/Home.php), [GloBI](https://www.globalbioticinteractions.org/) datasets.
+Pipeline for generating the knowledge graph integrating [raw metabolite data originally used for ENPKG](https://zenodo.org/records/10827917), traits data from [TRY-db](https://www.try-db.org/TryWeb/Home.php), and interaction data from [GloBI](https://www.globalbioticinteractions.org/).
 
 **Pipeline Components**
 
