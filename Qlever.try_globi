@@ -1,0 +1,50 @@
+# Qleverfile for Olympics, use with https://github.com/ad-freiburg/qlever-control
+#
+# qlever get-data  # downloads .zip file of size 13 MB, uncompressed to 323 MB 
+# qlever index     # takes ~10 seconds and ~1 GB RAM (on an AMD Ryzen 9 5900X)
+# qlever start     # starts the server (instant)
+
+[data]
+# URL of the zenodo record
+GET_DATA_URL      = https://zenodo.org/api/records/15211270
+
+# name of the folder where data files will be downloaded and stored
+NAME              = emi_trydb_globi
+
+# name of the initial emi turtle zipped folder without suffix
+DBGI-FILE 	  = dbgi-emi-rdf-v3
+
+# get data from zenodo
+GET_DATA_CMD_1	  = mkdir ${NAME} && cd ${NAME} && curl -s ${GET_DATA_URL} | jq -r '.files[] | "\(.links.self) \(.key)"' | while read -r url filename; do  wget -O $$filename $$url ; done &> ../${NAME}.data-log.txt  && cd .. 
+
+# unzip emi data and process to gzipped files
+GET_DATA_CMD_2 	  = unzip ${NAME}/${DBGI-FILE}.zip -d ${NAME}/ &>> ${NAME}.data-log.txt && pigz ${NAME}/${DBGI-FILE}/*ttl && mv ${NAME}/${DBGI-FILE}/*ttl.gz ${NAME}/
+
+# cleaning up of directories and zipped files
+GET_DATA_CMD_3 	  = [ -d ${NAME}/${DBGI-FILE} ] && rm -rf -- ${NAME}/${DBGI-FILE}; [ -f ${NAME}/${DBGI-FILE}.zip ] && rm -f -- ${NAME}/${DBGI-FILE}.zip 
+
+# run the command
+GET_DATA_CMD   	  = echo "Downloading data from zenodo" && ${GET_DATA_CMD_1} && echo "Extracting EMI turtle files in gz format" && ${GET_DATA_CMD_2} && echo "Cleaning up directories" && ${GET_DATA_CMD_3} 
+DESCRIPTION       = integrated data from emi, try, and globi 
+
+
+
+[index]
+INPUT_FILES     = ${data:NAME}/*ttl.gz
+CAT_INPUT_FILES = gunzip -c ${INPUT_FILES}
+SETTINGS_JSON   = { "ascii-prefixes-only": false, "num-triples-per-batch": 100000 }
+
+[server]
+PORT               = 7035
+ACCESS_TOKEN       = ${data:NAME}_7643543846
+MEMORY_FOR_QUERIES = 22G
+CACHE_MAX_SIZE     = 15G
+CACHE_MAX_SIZE_SINGLE_ENTRY = 5G
+TIMEOUT            = 5000s
+
+[runtime]
+SYSTEM = docker
+IMAGE  = docker.io/adfreiburg/qlever:latest
+
+[ui]
+UI_CONFIG = trydb_globi
