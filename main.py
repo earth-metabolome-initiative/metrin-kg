@@ -80,7 +80,7 @@ def main():
         print("TRY-db Taxonomy Matching complete.")
 
 
-    # Example: Run ontology matcher
+    # Run ontology matcher
     if args.run_ontology_match:
         try:
             input_file = config.get('ontology match', 'input_file') #e.g.: data/processed/globi/verbatim_unmappedLifeStageNamesGlobi_mod.csv
