@@ -27,6 +27,7 @@ pip install -r requirements.txt
 **Usage**
 
 1. Clone the repository
+
 `git clone https://github.com/earth-metabolome-initiative/metrin-kg.git`
 
 2. Run the pipeline via command-line
