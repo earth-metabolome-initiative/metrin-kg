@@ -38,7 +38,7 @@ DCTERMS = Namespace("http://purl.org/dc/terms/")
 """
 
 # Custom namespace for EMI Box (for GloBI entity matching part)
-EMI_BOX_NAMESPACE = Namespace("https://purl.org/emi/abox#")
+EMI_BOX_NAMESPACE = Namespace("https://w3id.org/emi/abox#")
 
 SOSA = Namespace("http://www.w3.org/ns/sosa/") # From your inverse relations
 # Inverse relationships for RDF graph (for GloBI entity matching part)

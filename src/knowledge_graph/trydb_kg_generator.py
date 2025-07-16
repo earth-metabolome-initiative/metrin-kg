@@ -13,9 +13,9 @@ from src.common.utils import format_uri, is_none_na_or_empty, create_dict_from_c
 rdflib.plugin.register('turtle_custom', rdflib.plugin.Serializer, 'turtle_custom.serializer', 'TurtleSerializerCustom')
 
 # Namespace declarations
-EMI = Namespace("https://purl.org/emi#")
-EMI_UNIT = Namespace("https://purl.org/emi/unit#")
-EMI_BOX = Namespace("https://purl.org/emi/abox#")
+EMI = Namespace("https://w3id.org/emi#")
+EMI_UNIT = Namespace("https://w3id.org/emi/unit#")
+EMI_BOX = Namespace("https://w3id.org/emi/abox#")
 SOSA = Namespace("http://www.w3.org/ns/sosa/")
 DCTERMS = Namespace("http://purl.org/dc/terms/")
 WD = Namespace("http://www.wikidata.org/entity/")

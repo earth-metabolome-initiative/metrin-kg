@@ -14,8 +14,8 @@ from src.knowledge_graph.globi_entity_matcher import GlobiEntityMatcher
 rdflib.plugin.register('turtle_custom', rdflib.plugin.Serializer, 'turtle_custom.serializer', 'TurtleSerializerCustom')
 
 # Namespace declarations
-EMI = Namespace("https://purl.org/emi#")
-EMIBOX = Namespace("https://purl.org/emi/abox#")
+EMI = Namespace("https://w3id.org/emi#")
+EMIBOX = Namespace("https://w3id.org/emi/abox#")
 SOSA = Namespace("http://www.w3.org/ns/sosa/")
 DCTERMS = Namespace("http://purl.org/dc/terms/")
 WD = Namespace("http://www.wikidata.org/entity/")
