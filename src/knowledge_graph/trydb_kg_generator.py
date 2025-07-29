@@ -19,7 +19,7 @@ EMI_BOX = Namespace("https://w3id.org/emi/abox#")
 SOSA = Namespace("http://www.w3.org/ns/sosa/")
 DCTERMS = Namespace("http://purl.org/dc/terms/")
 WD = Namespace("http://www.wikidata.org/entity/")
-QUDT = Namespace("https://qudt.org/2.1/schema/qudt/")
+QUDT = Namespace("https://qudt.org/schema/qudt/")
 QUDT_UNIT = Namespace("http://qudt.org/vocab/unit/")
 
 # Generates RDF triples from TRY database data.
