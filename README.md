@@ -20,17 +20,28 @@ Generates RDF triples representing taxonomic alignments and traits for:
 
 **Installation**
 
-Install required dependencies:
-`pip install -r requirements.txt`
-
-
-**Usage**
-
 1. Clone the repository
 
 `git clone https://github.com/earth-metabolome-initiative/metrin-kg.git`
 
-2. Run the pipeline via command-line
+
+2. Make sure you have pipenv installed. If not, install it via:
+
+`pip install pipenv`
+
+
+3. Once `pipenv` is installed, install the dependencies:
+
+`pipenv install`
+`pipenv shell`
+
+
+
+
+**Usage**
+
+
+1. Run the pipeline via command-line
 
 `python main.py [OPTIONS]`
 
