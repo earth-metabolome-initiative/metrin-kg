@@ -4,7 +4,7 @@ Pipeline for generating the knowledge graph integrating [enriched metabolite dat
 **Pipeline Components**
 
 1. Wikidata Data Acquisition
-Fetches lineage and taxonomic data for up to **15 taxonomies** from Wikidata using SPARQL.
+Fetches lineage and taxonomic data for up to 15 taxonomies from Wikidata using SPARQL.
 
 2. Taxonomy Matching against fetched Wikidata records.
 Matches taxa from:
