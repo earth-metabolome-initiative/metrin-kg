@@ -21,7 +21,7 @@ Generates RDF triples representing taxonomic alignments and traits for:
 **Installation**
 
 Install required dependencies:
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 
 **Usage**
