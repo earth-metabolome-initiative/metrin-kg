@@ -22,18 +22,25 @@ Generates RDF triples representing taxonomic alignments and traits for:
 
 1. Clone the repository
 
-`git clone https://github.com/earth-metabolome-initiative/metrin-kg.git`
-
+```bash
+git clone https://github.com/earth-metabolome-initiative/metrin-kg.git
+```
 
 2. Make sure you have pipenv installed. If not, install it via:
 
-`pip install pipenv`
+
+```bash
+pip install pipenv
+```
 
 
 3. Once `pipenv` is installed, install the dependencies:
 
-`pipenv install`
-`pipenv shell`
+
+```bash
+pipenv install
+pipenv shell
+```
 
 
 
@@ -43,12 +50,17 @@ Generates RDF triples representing taxonomic alignments and traits for:
 
 1. For supported arguments, run:
 
-`python main.py --help`
+```bash
+python main.py --help
+```
+
 
 
 2. Run the pipeline via command-line
 
-`python main.py [OPTIONS]`
+```bash
+python main.py [OPTIONS]
+```
 
 Command-Line Options
 
@@ -65,19 +77,27 @@ Command-Line Options
 
 3. Run the full pipeline:
 
-`python main.py --run-wd-fetcher --run-globi-match --run-trydb-match --run-globi-kg --run-trydb-kg --config config.txt`
+```bash
+python main.py --run-wd-fetcher --run-globi-match --run-trydb-match --run-globi-kg --run-trydb-kg --config config.txt
+```
 
 
 4. Run only Wikidata fetcher:
 
-`python main.py --run-wd-fetcher --config config.txt`
+```bash
+python main.py --run-wd-fetcher --config config.txt
+```
 
 
 5. Run only GloBI/TRY-db taxonomy matching:
 
-`python main.py --run-globi-match --config config.txt`
+```bash
+python main.py --run-globi-match --config config.txt
+```
 
-`python main.py --run-trydb-match --config config.txt`
+```bash
+python main.py --run-trydb-match --config config.txt
+```
 
 
 
@@ -85,21 +105,27 @@ Command-Line Options
 
 This can be done for any of the datasets from GloBI (body part, life stages, and biological sex) and TRY-db (unit names). Specify the input and output files under `[ontology]` header in `config.txt`
 
-`python main.py --run-ontology-match --config config.txt`
+```bash
+python main.py --run-ontology-match --config config.txt
+```
 
 
 
 
 7. Generate knowledge graph - GloBI/TRY-db:
 
-`python main.py --run-globi-kg --config config.txt`
+```bash
+python main.py --run-globi-kg --config config.txt
+```
 
-`python main.py --run-trydb-kg --config config.txt`
+```bash
+python main.py --run-trydb-kg --config config.txt
+```
 
 
 _Notes_
 
-If you skip --run-wd-fetcher, make sure that the wd_* paths in config.txt point to valid, existing files.
+If you skip `--run-wd-fetcher`, make sure that the wd_* paths in config.txt point to valid, existing files.
 
 Each part of the pipeline can be run independently—helpful for debugging or incremental updates.
 
