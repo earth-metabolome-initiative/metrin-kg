@@ -41,7 +41,12 @@ Generates RDF triples representing taxonomic alignments and traits for:
 **Usage**
 
 
-1. Run the pipeline via command-line
+1. For supported arguments, run:
+
+`python main.py --help`
+
+
+2. Run the pipeline via command-line
 
 `python main.py [OPTIONS]`
 
