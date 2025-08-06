@@ -48,7 +48,7 @@ pipenv shell
 **Usage**
 
 
-1. Download associated accessory data from [METRIN-KG zenodo repository](https://doi.org/10.5281/zenodo.15689187. Copy the contents it in the data directory of the cloned github directory.
+1. Download associated accessory data from [METRIN-KG zenodo repository](https://doi.org/10.5281/zenodo.15689187). Copy the contents it in the data directory of the cloned github directory.
 
 2. For supported arguments, run:
 
