@@ -48,7 +48,16 @@ pipenv shell
 **Usage**
 
 
-1. Download associated accessory data from [METRIN-KG zenodo repository](https://doi.org/10.5281/zenodo.15689187). Copy the contents it in the data directory of the cloned github directory.
+1. Download associated accessory data from [METRIN-KG zenodo repository](https://doi.org/10.5281/zenodo.15689187) and [verbatim-interactions.tsv.gz](https://zenodo.org/records/14640564/files/verbatim-interactions.tsv.gz?download=1) (only) from [GloBI zenodo repository](https://zenodo.org/records/14640564). 
+
+```bash
+cd metrin-kg
+wget https://zenodo.org/records/15689187/files/metrin-kg.tar.gz?download=1
+wget https://zenodo.org/records/14640564/files/verbatim-interactions.tsv.gz?download=1
+tar -xvf metrin-kg.tar.gz
+mv metrin-kg-data data
+mv verbatim-interactions.tsv.gz data/raw/
+```
 
 2. For supported arguments, run:
 
