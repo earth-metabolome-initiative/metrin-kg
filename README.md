@@ -48,7 +48,9 @@ pipenv shell
 **Usage**
 
 
-1. For supported arguments, run:
+1. Download associated accessory data from [METRIN-KG zenodo repository](https://doi.org/10.5281/zenodo.15689187. Copy the contents it in the data directory of the cloned github directory.
+
+2. For supported arguments, run:
 
 ```bash
 python main.py --help
@@ -56,7 +58,7 @@ python main.py --help
 
 
 
-2. Run the pipeline via command-line
+3. Run the pipeline via command-line
 
 ```bash
 python main.py [OPTIONS]
@@ -75,21 +77,23 @@ Command-Line Options
 | `--run-trydb-kg`    | Generate RDF Knowledge Graph for TRY-db                 |
 
 
-3. Run the full pipeline:
+4. Run the full pipeline:
 
 ```bash
 python main.py --run-wd-fetcher --run-globi-match --run-trydb-match --run-globi-kg --run-trydb-kg --config config.txt
 ```
 
+Note: This might take a while. If you only want to reproduce the KG, skip to point-8 directly. Note that if you have copied the data from the METRIN-KG zenodo repository, all accessory files are already available.
 
-4. Run only Wikidata fetcher:
+5. Run only Wikidata fetcher:
 
 ```bash
 python main.py --run-wd-fetcher --config config.txt
 ```
 
+Note: If you just want to reproduce the KG, you don't need to perform this step because the data directory already has the relevant files (if the METRIN-KG zenodo contents are copied correctly).
 
-5. Run only GloBI/TRY-db taxonomy matching:
+6. Run only GloBI/TRY-db taxonomy matching:
 
 ```bash
 python main.py --run-globi-match --config config.txt
@@ -99,9 +103,10 @@ python main.py --run-globi-match --config config.txt
 python main.py --run-trydb-match --config config.txt
 ```
 
+Note: If you just want to reproduce the KG, you don't need to perform this step because the data directory already has the relevant files (if the METRIN-KG zenodo contents are copied correctly).
 
 
-6. Run only ontology matching
+7. Run only ontology matching
 
 This can be done for any of the datasets from GloBI (body part, life stages, and biological sex) and TRY-db (unit names). Specify the input and output files under `[ontology]` header in `config.txt`
 
@@ -109,10 +114,10 @@ This can be done for any of the datasets from GloBI (body part, life stages, and
 python main.py --run-ontology-match --config config.txt
 ```
 
+Note: If you just want to reproduce the KG, you don't need to perform this step because the data directory already has the relevant files (if the METRIN-KG zenodo contents are copied correctly).
 
 
-
-7. Generate knowledge graph - GloBI/TRY-db:
+8. Generate knowledge graph - GloBI/TRY-db:
 
 ```bash
 python main.py --run-globi-kg --config config.txt
@@ -127,7 +132,7 @@ _Notes_
 
 If you skip `--run-wd-fetcher`, make sure that the wd_* paths in config.txt point to valid, existing files.
 
-Each part of the pipeline can be run independently—helpful for debugging or incremental updates.
+Each part of the pipeline can be run independently.
 
 
 
