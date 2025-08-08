@@ -6,8 +6,9 @@
 # qlever index --overwrite-existing --parallel-parsing false 
 
 [data]
-# URL of the zenodo record
-GET_DATA_URL      = https://zenodo.org/api/records/15689187
+# URL of the zenodo global record. Note- no need to include the new version doi, the get datsa command takes care to download the latest version from the header pof the global record.
+GET_DATA_DOI      = https://zenodo.org/api/records/15689186
+
 
 # name of the folder where data files will be downloaded and stored
 NAME              = metrin-kg
@@ -15,17 +16,24 @@ NAME              = metrin-kg
 # name of the initial emi turtle zipped folder without suffix
 EMI-ENPKG-FILE 	  = enpkg-rdf-v4
 
+# delete directory if it exists
+#GET_DATA_CMD_1a   = [ -d ${NAME} ] && rm -rf ${NAME}
+
+GET_URL           = $$(curl -sS "https://zenodo.org/api/records/11186592" | grep -o '\"/api/records/[0-9]\+' | cut -d '/' -f4)
+
+
 # get data from zenodo
-GET_DATA_CMD_1a	  = mkdir ${NAME} && cd ${NAME} && curl -s ${GET_DATA_URL} | jq -r '.files[] | select(.key | endswith(".tar.gz")) | "\(.links.self) \(.key)"' | while read -r url filename; do wget -O $$filename $$url; done &> ../${NAME}.data-log.txt 
+GET_DATA_CMD_1a	  = mkdir ${NAME} && cd ${NAME} && curl -s "https://zenodo.org/api/records/${GET_URL}" | jq -r '.files[] | select(.key | endswith(".tar.gz")) | "\(.links.self) \(.key)"' | while read -r url filename; do wget -O $$filename $$url; done &> ../${NAME}.data-log.txt 
+
 
 # Extract only the contents inside processed/KG/ to the current dir
-GET_DATA_CMD_1b	  = tar --strip-components=4 -xvf metrin-kg.tar.gz metrin-kg/metrin-kg-data/processed/KG/ &> ../${NAME}.data-log.txt && rm metrin-kg.tar.gz && cd ../
+GET_DATA_CMD_1b	  = tar --strip-components=4 -xvf metrin-kg.tar.gz metrin-kg/metrin-kg-data/processed/KG/ &>> ../${NAME}.data-log.txt && rm ${NAME}.tar.gz
 
 # unzip emi data and process to gzipped files
-GET_DATA_CMD_2 	  = tar -xvf ${NAME}/${EMI-ENPKG-FILE}.tar.gz -d ${NAME}/ &>> ${NAME}.data-log.txt && pigz ${NAME}/${EMI-ENPKG-FILE}/*ttl && mv ${NAME}/${EMI-ENPKG-FILE}/*ttl.gz ${NAME}/
+GET_DATA_CMD_2 	  = tar -xvf ${EMI-ENPKG-FILE}.tar.gz &>> ../${NAME}.data-log.txt && mv ${EMI-ENPKG-FILE}/*ttl.gz .
 
 # cleaning up of directories and zipped files
-GET_DATA_CMD_3 	  = [ -d ${NAME}/${EMI-ENPKG-FILE} ] && rm -rf -- ${NAME}/${EMI-ENPKG-FILE}; [ -f ${NAME}/${EMI-ENPKG-FILE}.tar.gz ] && rm -f -- ${NAME}/${EMI-ENPKG-FILE}.tar.gz 
+GET_DATA_CMD_3 	  = [ -d ${EMI-ENPKG-FILE} ] && rm -rf -- ${EMI-ENPKG-FILE}; [ -f ${EMI-ENPKG-FILE}.tar.gz ] && rm -f -- ${EMI-ENPKG-FILE}.tar.gz 
 
 # run the command
 GET_DATA_CMD   	  = echo "Downloading data from zenodo" && ${GET_DATA_CMD_1a} && ${GET_DATA_CMD_1b} && echo "Extracting EMI turtle files in gz format" && ${GET_DATA_CMD_2} && echo "Cleaning up directories" && ${GET_DATA_CMD_3} 
