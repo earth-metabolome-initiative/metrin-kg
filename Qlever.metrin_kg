@@ -1,9 +1,9 @@
 # Qleverfile for Olympics, use with https://github.com/ad-freiburg/qlever-control
 #
 # qlever get-data  # downloads .zip file of size 13 MB, uncompressed to 323 MB 
-# qlever index     # takes ~10 seconds and ~1 GB RAM (on an AMD Ryzen 9 5900X)
+# qlever index     # takes ~10 seconds and ~1 GB RAM (on an AMD Ryzen 9 5900X) - if issues are faced # qlever index --overwrite-existing --parallel-parsing false 
+
 # qlever start     # starts the server (instant)
-# qlever index --overwrite-existing --parallel-parsing false 
 
 [data]
 # URL of the zenodo global record. Note- no need to include the new version doi, the get datsa command takes care to download the latest version from the header pof the global record.
@@ -59,4 +59,4 @@ SYSTEM = docker
 IMAGE  = docker.io/adfreiburg/qlever:latest
 
 [ui]
-UI_CONFIG = trydb_globi
+UI_CONFIG = metrin-kg
