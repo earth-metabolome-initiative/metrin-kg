@@ -150,7 +150,7 @@ python main.py --run-trydb-kg --config config.txt
 
 For querying METRIN-KG, you can use the Qlever powered end-point hosted on [earth-metabolome-initiative.org](https://kg.earthmetabolome.org/metrin-kg/).
 
-_Want to generate your own instance of METRIN-KG SPARQL endpoint_
+_Want to generate your own instance of METRIN-KG SPARQL endpoint?_
 
 Follow the instructions on [qlever-control](https://github.com/ad-freiburg/qlever-control) and [qlever-ui](https://github.com/earth-metabolome-initiative/qlever-ui) to install Qlever.
 You can find the [qlever config file](https://github.com/earth-metabolome-initiative/metrin-kg/blob/main/Qlever.metrin_kg) used to index METRIN-KG. 
