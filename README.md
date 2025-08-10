@@ -137,24 +137,18 @@ python main.py --run-trydb-kg --config config.txt
 ```
 
 > _Notes_: 
-
 > 1. For generating the sub knowledge graph of metabolites, [follow the instructions here](https://github.com/earth-metabolome-initiative/earth_metabolome_ontology?tab=readme-ov-file#generating-rdf-triples-based-on-the-emi-ontology-for-the-pf1600-dataset)
-
 > 2. If you skip `--run-wd-fetcher`, make sure that the wd_* paths in config.txt point to valid, existing files. Each part of the pipeline can be run independently.
-
 > 3. Outputs
-
-> a) Fetched taxonomy files from Wikidata (*.json)
-
-> b) Matched taxa files for GloBI and TRY-db (*.tsv)
-
-> c) RDF files representing the final knowledge graphs (*.ttl, *.rdf, etc.)
+> a) Fetched taxonomy files from Wikidata (\*.json)
+> b) Matched taxa files for GloBI and TRY-db (\*.tsv)
+> c) RDF files representing the final knowledge graphs (\*.ttl, \*.rdf, etc.)
 
 
 
 **Querying METRIN-KG**
 
-For querying METRIN-KG, you can use the Qlever powered (see [qlever-control](https://github.com/ad-freiburg/qlever-control) and [qlever-ui](https://github.com/earth-metabolome-initiative/qlever-ui)) [end-point hosted on earth-metabolome-initiative.org](https://kg.earthmetabolome.initiative/metrin-kg/).
+For querying METRIN-KG, you can use the Qlever powered (see [qlever-control](https://github.com/ad-freiburg/qlever-control) and [qlever-ui](https://github.com/earth-metabolome-initiative/qlever-ui)) end-point hosted on [earth-metabolome-initiative.org](https://kg.earthmetabolome.org/metrin-kg/).
 
 
 
