@@ -157,12 +157,17 @@ You can find the [qlever config file](https://github.com/earth-metabolome-initia
 Follow the commands below to generate your own instance of METRIN-KG on localhost.
 
 ```bash
-qleverX --qleverfile Qlever.try_globi index --overwrite-existing --parallel-parsing false
-qleverX --qleverfile Qlever.try_globi start
+qleverX --qleverfile Qlever.try_globi get-data  # download full METRIN-KG graph
+qleverX --qleverfile Qlever.try_globi index --overwrite-existing --parallel-parsing false  # index KG
+qleverX --qleverfile Qlever.try_globi start  # start the server on local host
+```
+ 
+
+Once Qlever index is generated and the server started, you can query the endpoint using qlever-ui on your localhost. Once you are done querying METRIN-KG, don't forget to stop the server
+```bash
 qleverX --qleverfile Qlever.try_globi stop
 ```
 
-Once Qlever index is generated and the server started, you can query the endpoint using qlever-ui on your localhost.
 
 
 
