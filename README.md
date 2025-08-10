@@ -1,6 +1,10 @@
 # METRIN-KG
 Pipeline for generating the knowledge graph integrating [enriched metabolite data originally used for ENPKG](https://zenodo.org/records/10827917), traits data from [TRY-db](https://www.try-db.org/TryWeb/Home.php), and interaction data from [GloBI](https://www.globalbioticinteractions.org/).
 
+> **Notes**
+> 1. If you want to build the METRIN-KG triples, skip to [installation](https://github.com/earth-metabolome-initiative/metrin-kg#installation)
+> 2. If you just want build your own instance METRIN-KG SPARQL endpoint, skip to [querying METRIN-KG](https://github.com/earth-metabolome-initiative/metrin-kg?tab=readme-ov-file#querying-metrin-kg)
+
 ## Pipeline Components
 
 1. Wikidata Data Acquisition
