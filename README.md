@@ -1,7 +1,7 @@
 # METRIN-KG
 Pipeline for generating the knowledge graph integrating [enriched metabolite data originally used for ENPKG](https://zenodo.org/records/10827917), traits data from [TRY-db](https://www.try-db.org/TryWeb/Home.php), and interaction data from [GloBI](https://www.globalbioticinteractions.org/).
 
-**Pipeline Components**
+## Pipeline Components
 
 1. Wikidata Data Acquisition
 Fetches lineage and taxonomic data for up to 15 taxonomies from Wikidata using SPARQL.
@@ -18,7 +18,7 @@ Generates RDF triples representing taxonomic alignments and traits for:
 - EMI-KG (extension of ENPKG)
 
 
-**Installation**
+## Installation
 
 1. Clone the repository
 
@@ -45,7 +45,7 @@ pipenv shell
 
 
 
-**Usage**
+## Usage
 
 
 1. Download associated accessory data from [METRIN-KG zenodo repository](https://doi.org/10.5281/zenodo.15689187) and [verbatim-interactions.tsv.gz](https://zenodo.org/records/14640564/files/verbatim-interactions.tsv.gz?download=1) (only) from [GloBI zenodo repository](https://zenodo.org/records/14640564). 
@@ -146,13 +146,26 @@ python main.py --run-trydb-kg --config config.txt
 
 
 
-**Querying METRIN-KG**
+## Querying METRIN-KG
 
-For querying METRIN-KG, you can use the Qlever powered (see [qlever-control](https://github.com/ad-freiburg/qlever-control) and [qlever-ui](https://github.com/earth-metabolome-initiative/qlever-ui)) end-point hosted on [earth-metabolome-initiative.org](https://kg.earthmetabolome.org/metrin-kg/).
+For querying METRIN-KG, you can use the Qlever powered end-point hosted on [earth-metabolome-initiative.org](https://kg.earthmetabolome.org/metrin-kg/).
+
+_Want to generate your own instance of METRIN-KG SPARQL endpoint_
+Follow the instructions on [qlever-control](https://github.com/ad-freiburg/qlever-control) and [qlever-ui](https://github.com/earth-metabolome-initiative/qlever-ui) to install Qlever.
+You can find the [qlever config file](https://github.com/earth-metabolome-initiative/metrin-kg) used to index METRIN-KG. 
+Follow the commands below to generate your own instance of METRIN-KG on localhost.
+
+```bash
+qleverX --qleverfile Qlever.try_globi index --overwrite-existing --parallel-parsing false
+qleverX --qleverfile Qlever.try_globi start
+qleverX --qleverfile Qlever.try_globi stop
+```
+
+Once Qlever index is generated and the server started, you can query the endpoint using qlever-ui on your localhost.
 
 
 
-**Contribute and Contact**
+## Contribute and Contact
 
 
 Have a look at [METRIN-KG wiki](https://github.com/earth-metabolome-initiative/metrin-kg/wiki) for how-to-use and how-to-contribute-to METRIN-KG.
