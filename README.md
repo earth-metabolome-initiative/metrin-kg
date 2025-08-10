@@ -152,7 +152,7 @@ For querying METRIN-KG, you can use the Qlever powered end-point hosted on [eart
 
 _Want to generate your own instance of METRIN-KG SPARQL endpoint_
 Follow the instructions on [qlever-control](https://github.com/ad-freiburg/qlever-control) and [qlever-ui](https://github.com/earth-metabolome-initiative/qlever-ui) to install Qlever.
-You can find the [qlever config file](https://github.com/earth-metabolome-initiative/metrin-kg) used to index METRIN-KG. 
+You can find the [qlever config file](https://github.com/earth-metabolome-initiative/metrin-kg/blob/main/Qlever.metrin_kg) used to index METRIN-KG. 
 Follow the commands below to generate your own instance of METRIN-KG on localhost.
 
 ```bash
