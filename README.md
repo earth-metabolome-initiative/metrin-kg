@@ -136,10 +136,10 @@ python main.py --run-globi-kg --config config.txt
 python main.py --run-trydb-kg --config config.txt
 ```
 
+> _Note_: 
+1. For generating the sub knowledge graph of metabolites, [follow the instructions here](https://github.com/earth-metabolome-initiative/earth_metabolome_ontology?tab=readme-ov-file#generating-rdf-triples-based-on-the-emi-ontology-for-the-pf1600-dataset)
 
-_Notes_
-
-If you skip `--run-wd-fetcher`, make sure that the wd_* paths in config.txt point to valid, existing files.
+2. If you skip `--run-wd-fetcher`, make sure that the wd_* paths in config.txt point to valid, existing files.
 
 Each part of the pipeline can be run independently.
 
