@@ -174,6 +174,12 @@ qleverX --qleverfile Qlever.metrin_kg stop
 
 
 
+## For visualization of class overview and data schema, open [sparql_editor_metrin-kg.html](https://github.com/earth-metabolome-initiative/metrin-kg/blob/main/sparql_editor_index_metrin-kg.html) in a browser. 
+
+For instructions on how to generate this file, refer to following github repos: [sparql-editor](https://github.com/sib-swiss/sparql-editor), [sparql-examples](https://github.com/sib-swiss/sparql-examples), and [void-generator](https://github.com/mdrishti/void-generator-c).
+
+
+
 
 ## Contribute and Contact
 
