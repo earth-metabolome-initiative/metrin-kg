@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SPARQL editor dev</title>
+    <meta name="description" content="SPARQL editor demo page" />
+    <link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/f/f3/Rdf_logo.svg" />
+    <!-- Import the module from a CDN -->
+    <!--script type="module" src="https://unpkg.com/@sib-swiss/sparql-overview"-->
+    <!--script type="module" src="https://unpkg.com/@sib-swiss/sparql-editor"-->
+    <script type="module" src="https://esm.sh/@sib-swiss/sparql-editor">
+	</script>
+
+  </head>
+
+  <body>
+    <div>
+      <sparql-editor
+        endpoint="https://qlever.earthmetabolome.org/api/metrin-kg/"
+        style="--btn-color: white; --btn-bg-color: #00709b;"
+      ></sparql-editor>
+    </div>
+  </body>
+</html>
