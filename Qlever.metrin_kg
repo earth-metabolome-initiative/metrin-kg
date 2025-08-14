@@ -50,9 +50,9 @@ SETTINGS_JSON   = { "ascii-prefixes-only": false, "num-triples-per-batch": 10000
 PORT               = 7035
 ACCESS_TOKEN       = ${data:NAME}_7643543846
 MEMORY_FOR_QUERIES = 22G
-CACHE_MAX_SIZE     = 15G
-CACHE_MAX_SIZE_SINGLE_ENTRY = 5G
-TIMEOUT            = 5000s
+CACHE_MAX_SIZE     = 30G
+CACHE_MAX_SIZE_SINGLE_ENTRY = 15G
+TIMEOUT            = 8000s
 
 [runtime]
 SYSTEM = docker
