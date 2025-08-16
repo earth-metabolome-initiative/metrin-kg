@@ -152,7 +152,9 @@ python main.py --run-trydb-kg --config config.txt
 
 ## Querying METRIN-KG
 
-For querying METRIN-KG, you can use the Qlever powered end-point hosted on [earth-metabolome-initiative.org](https://kg.earthmetabolome.org/metrin-kg/).
+For querying METRIN-KG, you can use two methods:
+
+### a) the Qlever powered end-point hosted on [earth-metabolome-initiative.org](https://kg.earthmetabolome.org/metrin-kg/).
 
 _Want to generate your own instance of METRIN-KG SPARQL endpoint?_
 
@@ -161,24 +163,29 @@ You can find the [qlever config file](https://github.com/earth-metabolome-initia
 Follow the commands below to generate your own instance of METRIN-KG on localhost.
 
 ```bash
-qleverX --qleverfile Qlever.metrin_kg get-data  # download full METRIN-KG graph
-qleverX --qleverfile Qlever.metrin_kg index --overwrite-existing --parallel-parsing false  # index KG
-qleverX --qleverfile Qlever.metrin_kg start  # start the server on local host
+qlever --qleverfile Qlever.metrin_kg get-data  # download full METRIN-KG graph
+qlever --qleverfile Qlever.metrin_kg index --overwrite-existing --parallel-parsing false  # index KG
+qlever --qleverfile Qlever.metrin_kg start  # start the server on local host
 ```
  
 
 Once Qlever index is generated and the server started, you can query the endpoint using qlever-ui on your localhost. Once you are done querying METRIN-KG, don't forget to stop the server
 ```bash
-qleverX --qleverfile Qlever.metrin_kg stop
+qlever --qleverfile Qlever.metrin_kg stop
 ```
 
+### b) the [sparql-editor powered endpoint](https://github.com/sib-swiss/sparql-editor/metrin-kg)
+
+This endpoint also provides direct access to class-overview (find the icon at the top-left corner). It also provides a way to suggest example queries to be accepted in the METRIN-KG examples set (find the icon 💾 at the top-left corner). 
+
+Note that for some queries, this endpoint might give a `The quota has exceeded` error. We are trying to resolve it. Updates soon...
 
 
-## Class overview 
+## Class-overview 
 
-For visualization of class overview and data schema, open [sparql_editor_metrin-kg.html](https://github.com/earth-metabolome-initiative/metrin-kg/blob/main/sparql_editor_index_metrin-kg.html) in a browser. 
+For visualization of class overview and data schema, visit the [sparql-editor powered endpoint](https://github.com/sib-swiss/sparql-editor/metrin-kg) and click on the class overview icon at the top-left corner of the page. 
 
-For instructions on how to generate this file, refer to following github repos: [sparql-editor](https://github.com/sib-swiss/sparql-editor), [sparql-examples](https://github.com/sib-swiss/sparql-examples), and our own [fork of void-generator](https://github.com/mdrishti/void-generator-c).
+You can also open [sparql_editor_metrin-kg.html](https://github.com/earth-metabolome-initiative/metrin-kg/blob/main/sparql_editor_index_metrin-kg.html) in a browser and visualize the class-overview. For instructions on how to generate this file, refer to following github repos: [sparql-editor](https://github.com/sib-swiss/sparql-editor), [sparql-examples](https://github.com/sib-swiss/sparql-examples), and our own [fork of void-generator](https://github.com/mdrishti/void-generator-c).
 
 
 
