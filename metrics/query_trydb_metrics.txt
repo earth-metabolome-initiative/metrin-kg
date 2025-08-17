@@ -1,0 +1,22 @@
+PREFIX emi: <https://w3id.org/emi#>
+PREFIX sosa: <http://www.w3.org/ns/sosa/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT 
+  (COUNT(DISTINCT ?trySpName) AS ?speciesCount)
+  (COUNT(DISTINCT ?traitData) AS ?traitCount)
+  (COUNT(DISTINCT ?nonTraitData) AS ?nonTraitCount)
+WHERE {
+  ?trySpName emi:inTaxon ?wdx .						
+  ?trySpObs sosa:isSampleOf ?trySpName ;
+            sosa:isFeatureOfInterestOf ?tryObId .
+  ?tryObId sosa:hasResult ?tryData .
+  ?tryData rdfs:label ?tryDataLab ;
+           rdf:value ?tryDataVal .
+
+  # separate trait vs. non-trait
+  OPTIONAL { ?tryData rdf:type emi:Trait     . BIND(?tryData AS ?traitData) }
+  OPTIONAL { ?tryData rdf:type emi:NonTrait  . BIND(?tryData AS ?nonTraitData) }
+}
+

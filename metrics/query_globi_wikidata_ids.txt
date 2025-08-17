@@ -1,0 +1,20 @@
+PREFIX emi: <https://w3id.org/emi#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT (COUNT(DISTINCT ?wdx) AS ?totalDistinctTaxa) WHERE {
+  ?intxn emi:hasSource ?source ;
+         emi:hasTarget ?target ;
+         emi:isClassifiedWith ?intxnType .
+  ?intxnType rdfs:label ?intxnLabel .
+  ?source emi:inTaxon ?wdx_Source ;
+          rdfs:label ?sourceName .
+  ?target emi:inTaxon ?wdx_Target ;
+          rdfs:label ?targetName .
+  # merge sources and targets into a single ?wdx variable
+  {
+    ?source emi:inTaxon ?wdx
+  }
+  UNION {
+    ?target emi:inTaxon ?wdx
+  }
+}
+
