@@ -36,6 +36,7 @@ git clone https://github.com/earth-metabolome-initiative/metrin-kg.git
 ```bash
 pip install pipenv
 ```
+The code has been run only with `python-3.12`, but it may work with other versions of `python-3`.
 
 
 3. Once `pipenv` is installed, install the dependencies:
