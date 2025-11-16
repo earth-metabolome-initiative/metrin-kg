@@ -1,7 +1,7 @@
-# Qleverfile for Olympics, use with https://github.com/ad-freiburg/qlever-control
+# Qleverfile for metrin-kg, use with https://github.com/qlever-dev/qlever-control
 #
-# qlever get-data  # downloads .zip file of size 13 MB, uncompressed to 323 MB 
-# qlever index     # takes ~10 seconds and ~1 GB RAM (on an AMD Ryzen 9 5900X) - if issues are faced # qlever index --overwrite-existing --parallel-parsing false 
+# qlever get-data  # downloads .zip file of size 13 MB, uncompressed to 323 MB
+# qlever index     # takes ~10 seconds and ~1 GB RAM (on an AMD Ryzen 9 5900X) - if issues are faced # qlever index --overwrite-existing --parallel-parsing false
 
 # qlever start     # starts the server (instant)
 
@@ -23,7 +23,7 @@ GET_URL           = $$(curl -sS "https://zenodo.org/api/records/11186592" | grep
 
 
 # get data from zenodo
-GET_DATA_CMD_1a	  = mkdir ${NAME} && cd ${NAME} && curl -s "https://zenodo.org/api/records/${GET_URL}" | jq -r '.files[] | select(.key | endswith(".tar.gz")) | "\(.links.self) \(.key)"' | while read -r url filename; do wget -O $$filename $$url; done &> ../${NAME}.data-log.txt 
+GET_DATA_CMD_1a	  = mkdir ${NAME} && cd ${NAME} && curl -s "https://zenodo.org/api/records/${GET_URL}" | jq -r '.files[] | select(.key | endswith(".tar.gz")) | "\(.links.self) \(.key)"' | while read -r url filename; do wget -O $$filename $$url; done &> ../${NAME}.data-log.txt
 
 
 # Extract only the contents inside processed/KG/ to the current dir
@@ -33,10 +33,10 @@ GET_DATA_CMD_1b	  = tar --strip-components=4 -xvf metrin-kg.tar.gz metrin-kg/met
 GET_DATA_CMD_2 	  = tar -xvf ${EMI-ENPKG-FILE}.tar.gz &>> ../${NAME}.data-log.txt && mv ${EMI-ENPKG-FILE}/*ttl.gz .
 
 # cleaning up of directories and zipped files
-GET_DATA_CMD_3 	  = [ -d ${EMI-ENPKG-FILE} ] && rm -rf -- ${EMI-ENPKG-FILE}; [ -f ${EMI-ENPKG-FILE}.tar.gz ] && rm -f -- ${EMI-ENPKG-FILE}.tar.gz 
+GET_DATA_CMD_3 	  = [ -d ${EMI-ENPKG-FILE} ] && rm -rf -- ${EMI-ENPKG-FILE}; [ -f ${EMI-ENPKG-FILE}.tar.gz ] && rm -f -- ${EMI-ENPKG-FILE}.tar.gz
 
 # run the command
-GET_DATA_CMD   	  = echo "Downloading data from zenodo" && ${GET_DATA_CMD_1a} && ${GET_DATA_CMD_1b} && echo "Extracting EMI turtle files in gz format" && ${GET_DATA_CMD_2} && echo "Cleaning up directories" && ${GET_DATA_CMD_3} 
+GET_DATA_CMD   	  = echo "Downloading data from zenodo" && ${GET_DATA_CMD_1a} && ${GET_DATA_CMD_1b} && echo "Extracting EMI turtle files in gz format" && ${GET_DATA_CMD_2} && echo "Cleaning up directories" && ${GET_DATA_CMD_3}
 DESCRIPTION       = metrin-kg rdf triples
 
 

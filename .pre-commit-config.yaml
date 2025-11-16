@@ -1,0 +1,53 @@
+repos:
+  # --- Pre-commit default hooks (whitespace, EOF, etc.)
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.6.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-yaml
+      - id: check-merge-conflict
+      - id: check-case-conflict
+      - id: detect-private-key
+      - id: mixed-line-ending
+      - id: check-added-large-files
+
+  # --- Black formatter for Python
+  - repo: https://github.com/psf/black
+    rev: 24.4.2
+    hooks:
+      - id: black
+        language_version: python3
+
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.11.13
+    hooks:
+      - id: ruff
+        args: [--fix, --exit-non-zero-on-fix]
+      - id: ruff-format
+
+  # --- isort for Python imports
+  - repo: https://github.com/pycqa/isort
+    rev: 7.0.0
+    hooks:
+      - id: isort
+
+  # --- Flake8 linting for Python
+  #- repo: https://github.com/pycqa/flake8
+  #  rev: 7.0.0
+  #  hooks:
+  #    - id: flake8
+
+  # --- Security checks for Python (bandit)
+  - repo: https://github.com/PyCQA/bandit
+    rev: 1.7.9
+    hooks:
+      - id: bandit
+        args: ["-r", "."]
+
+  # --- Prettier for HTML, CSS, JS, Markdown, etc.
+  - repo: https://github.com/pre-commit/mirrors-prettier
+    rev: v4.0.0-alpha.8
+    hooks:
+      - id: prettier
+        files: "\\.(html|css|js|md|txt)$"
