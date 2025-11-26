@@ -19,7 +19,8 @@ EMI-ENPKG-FILE 	  = enpkg-rdf-v4
 # delete directory if it exists
 #GET_DATA_CMD_1a   = [ -d ${NAME} ] && rm -rf ${NAME}
 
-GET_URL           = $$(curl -sS "https://zenodo.org/api/records/11186592" | grep -o '\"/api/records/[0-9]\+' | cut -d '/' -f4)
+#GET_URL           = $$(curl -sS "https://zenodo.org/api/records/11186592" | grep -o '\"/api/records/[0-9]\+' | cut -d '/' -f4)
+GET_URL           = $$(curl -sS ${GET_DATA_DOI} | grep -o '\"/api/records/[0-9]\+' | cut -d '/' -f4)
 
 
 # get data from zenodo
