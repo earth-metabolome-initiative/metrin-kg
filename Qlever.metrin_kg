@@ -14,30 +14,51 @@ GET_DATA_DOI      = https://zenodo.org/api/records/15689186
 NAME              = metrin-kg
 
 # name of the initial emi turtle zipped folder without suffix
-EMI-ENPKG-FILE 	  = enpkg-rdf-v4
+EMI_ENPKG_FILE 	  = enpkg-rdf-v4
 
 # delete directory if it exists
 #GET_DATA_CMD_1a   = [ -d ${NAME} ] && rm -rf ${NAME}
 
-#GET_URL           = $$(curl -sS "https://zenodo.org/api/records/11186592" | grep -o '\"/api/records/[0-9]\+' | cut -d '/' -f4)
+#GET_URL           = $$(curl -sS "https://zenodo.org/api/records/11186592" | grep -o '\"/api/records/[0-9]\+' | cut -d '/' -f4) # for testing purpose
 GET_URL           = $$(curl -sS ${GET_DATA_DOI} | grep -o '\"/api/records/[0-9]\+' | cut -d '/' -f4)
 
 
 # get data from zenodo
-GET_DATA_CMD_1a	  = mkdir ${NAME} && cd ${NAME} && curl -s "https://zenodo.org/api/records/${GET_URL}" | jq -r '.files[] | select(.key | endswith(".tar.gz")) | "\(.links.self) \(.key)"' | while read -r url filename; do wget -O $$filename $$url; done &> ../${NAME}.data-log.txt
+GET_DATA_CMD_1a = \
+  mkdir -p ${NAME} && cd ${NAME} && \
+  curl -s "https://zenodo.org/api/records/${GET_URL}" \
+  | jq -r '.files[] | select(.key | endswith(".tar.gz")) | "\(.links.self) \(.key)"' \
+  | while read -r url filename; do \
+      curl -L -o "$$filename" "$$url"; \
+    done >> ../${NAME}.data-log.txt 2>&1
 
-
-# Extract only the contents inside processed/KG/ to the current dir
-GET_DATA_CMD_1b	  = tar --strip-components=4 -xvf metrin-kg.tar.gz metrin-kg/metrin-kg-data/processed/KG/ &>> ../${NAME}.data-log.txt && rm ${NAME}.tar.gz
+# extract only the contents inside processed/KG/ to the current dir
+GET_DATA_CMD_1b = \
+  tar --strip-components=4 -xvf "${NAME}.tar.gz" \
+      "${NAME}/${NAME}-data/processed/KG/" \
+      >> ../${NAME}.data-log.txt 2>&1
+  rm ${NAME}.tar.gz
 
 # unzip emi data and process to gzipped files
-GET_DATA_CMD_2 	  = tar -xvf ${EMI-ENPKG-FILE}.tar.gz &>> ../${NAME}.data-log.txt && mv ${EMI-ENPKG-FILE}/*ttl.gz .
+GET_DATA_CMD_2 = \
+  tar -xvf "${EMI_ENPKG_FILE}.tar.gz" >> ../${NAME}.data-log.txt 2>&1 && \
+  mv ${EMI_ENPKG_FILE}/*ttl.gz .
 
 # cleaning up of directories and zipped files
-GET_DATA_CMD_3 	  = [ -d ${EMI-ENPKG-FILE} ] && rm -rf -- ${EMI-ENPKG-FILE}; [ -f ${EMI-ENPKG-FILE}.tar.gz ] && rm -f -- ${EMI-ENPKG-FILE}.tar.gz
+GET_DATA_CMD_3 = \
+  [ -d "${EMI_ENPKG_FILE}" ] && rm -rf -- "${EMI_ENPKG_FILE}"; \
+  [ -f "${EMI_ENPKG_FILE}.tar.gz" ] && rm -f -- "${EMI_ENPKG_FILE}.tar.gz"
 
-# run the command
-GET_DATA_CMD   	  = echo "Downloading data from zenodo" && ${GET_DATA_CMD_1a} && ${GET_DATA_CMD_1b} && echo "Extracting EMI turtle files in gz format" && ${GET_DATA_CMD_2} && echo "Cleaning up directories" && ${GET_DATA_CMD_3}
+# run the final command
+GET_DATA_CMD = \
+	echo "Downloading data from Zenodo" && \
+	${GET_DATA_CMD_1a} && \
+	${GET_DATA_CMD_1b} && \
+	echo "Extracting EMI turtle files in gz format" && \
+	${GET_DATA_CMD_2} && \
+	echo "Cleaning up directories" && \
+	${GET_DATA_CMD_3}
+
 DESCRIPTION       = metrin-kg rdf triples
 
 
