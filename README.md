@@ -1,6 +1,6 @@
 # METRIN-KG
 
-Pipeline for generating the knowledge graph integrating [enriched metabolite data originally used for ENPKG](https://zenodo.org/records/10827917), traits data from [TRY-db](https://www.try-db.org/TryWeb/Home.php), and interaction data from [GloBI](https://www.globalbioticinteractions.org/).
+Pipeline for generating the knowledge graph integrating [enriched metabolite data originally used for ENPKG](https://zenodo.org/records/10827917), traits data from [TRY](https://www.try-db.org/TryWeb/Home.php), and interaction data from [GloBI](https://www.globalbioticinteractions.org/).
 
 > **Notes**
 >
@@ -16,13 +16,13 @@ Pipeline for generating the knowledge graph integrating [enriched metabolite dat
    Matches taxa from:
 
 - GloBI (Global Biotic Interactions)
-- TRY-db (Plant Trait Database)
+- TRY (Plant Trait Database)
 
 3. Knowledge Graph Generation
    Generates RDF triples representing taxonomic alignments and traits for:
 
 - GloBI
-- TRY-db
+- TRY
 - EMI-KG (extension of ENPKG)
 
 ## Installation
@@ -54,11 +54,19 @@ pipenv shell
 
 ```bash
 cd metrin-kg
+
+# download METRIN-KG data
 wget https://zenodo.org/records/15689186/files/metrin-kg.tar.gz?download=1
-wget https://zenodo.org/records/14640564/files/verbatim-interactions.tsv.gz?download=1
 tar -xvf metrin-kg.tar.gz
 mv metrin-kg-data data
+
+# download GloBI data
+wget https://zenodo.org/records/14640564/files/verbatim-interactions.tsv.gz?download=1
 mv verbatim-interactions.tsv.gz data/raw/
+
+# download TRY data
+wget https://zenodo.org/records/17079465/files/TRYdb_40340.txt.gz?download=1
+mv TRYdb_40340.txt.gz data/raw/
 ```
 
 2. For supported arguments, run:
@@ -79,11 +87,11 @@ Command-Line Options
 | ---------------------- | --------------------------------------------- |
 | `--config`             | Path to config file (default: `config.txt`)   |
 | `--run-wd-fetcher`     | Fetch taxonomy data from Wikidata             |
-| `--run-ontology-match` | Match ontologies to GloBI or TRY-db terms     |
+| `--run-ontology-match` | Match ontologies to GloBI or TRY terms     |
 | `--run-globi-match`    | Match GloBI dataset with Wikidata taxonomies  |
-| `--run-trydb-match`    | Match TRY-db dataset with Wikidata taxonomies |
+| `--run-trydb-match`    | Match TRY dataset with Wikidata taxonomies |
 | `--run-globi-kg`       | Generate RDF Knowledge Graph for GloBI        |
-| `--run-trydb-kg`       | Generate RDF Knowledge Graph for TRY-db       |
+| `--run-trydb-kg`       | Generate RDF Knowledge Graph for TRY       |
 
 4. Run the full pipeline:
 
@@ -101,7 +109,7 @@ python main.py --run-wd-fetcher --config config.txt
 
 Note: If you just want to reproduce the KG, you don't need to perform this step because the data directory already has the relevant files (if the METRIN-KG zenodo contents are copied correctly).
 
-6. Run only GloBI/TRY-db taxonomy matching:
+6. Run only GloBI/TRY taxonomy matching:
 
 ```bash
 python main.py --run-globi-match --config config.txt
@@ -115,7 +123,7 @@ Note: If you just want to reproduce the KG, you don't need to perform this step 
 
 7. Run only ontology matching
 
-This can be done for any of the datasets from GloBI (body part, life stages, and biological sex) and TRY-db (unit names). Specify the input and output files under `[ontology]` header in `config.txt`
+This can be done for any of the datasets from GloBI (body part, life stages, and biological sex) and TRY (unit names). Specify the input and output files under `[ontology]` header in `config.txt`
 
 ```bash
 python main.py --run-ontology-match --config config.txt
@@ -123,7 +131,7 @@ python main.py --run-ontology-match --config config.txt
 
 Note: If you just want to reproduce the KG, you don't need to perform this step because the data directory already has the relevant files (if the METRIN-KG zenodo contents are copied correctly).
 
-8. Generate knowledge graph - GloBI/TRY-db:
+8. Generate knowledge graph - GloBI/TRY:
 
 ```bash
 python main.py --run-globi-kg --config config.txt
@@ -139,7 +147,7 @@ python main.py --run-trydb-kg --config config.txt
 > 2. If you skip `--run-wd-fetcher`, make sure that the wd\_\* paths in config.txt point to valid, existing files. Each part of the pipeline can be run independently.
 > 3. Outputs
 >    a) Fetched taxonomy files from Wikidata (\*.json)
->    b) Matched taxa files for GloBI and TRY-db (\*.tsv)
+>    b) Matched taxa files for GloBI and TRY (\*.tsv)
 >    c) RDF files representing the final knowledge graphs (\*.ttl, \*.rdf, etc.)
 
 ## Querying METRIN-KG
@@ -168,7 +176,7 @@ qlever --qleverfile Qlever.metrin_kg stop
 
 > _Notes_:
 > 1. The shell commands for `qlever get-data` inside the config file have been adapted for Ubuntu's terminal and Mac's iTerm2 default settings. 
-> 2. `qlever get-data` command will only download the triple (`ttl.gz` or `ttl`) and not the raw data used to generate the triples. For downloading the full METRIN-KG dataset including the raw data and the triples, please download it from [METRIN-KG's Zenodo repository](https://doi.org/10.5281/zenodo.15689186) and also [TRY-db](https://doi.org/10.5281/zenodo.17079464)
+> 2. `qlever get-data` command will only download the triple (`ttl.gz` or `ttl`) and not the raw data used to generate the triples. For downloading the full METRIN-KG dataset including the raw data and the triples, please refer to [Usage](https://github.com/earth-metabolome-initiative/metrin-kg?tab=readme-ov-file#usage) point-1.
 > 3. For indexing the data (`qlever index`), atleast 31 GB RAM will be required.
 
 ### b) the [sparql-editor powered endpoint](https://sib-swiss.github.io/sparql-editor/metrin-kg)
