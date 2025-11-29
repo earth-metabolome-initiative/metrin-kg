@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "METRIN-KG: A knowledge graph integrating plant metabolites, traits and biotic interactions"
+authors:
+  - family-names: "Tandon"
+    given-names: "Disha"
+  - family-names: "Mendes De Farias"
+    given-names: "Tarcisio"
+  - family-names: "Allard"
+    given-names: "Pierre-Marie"
+  - family-names: "Defossez"
+    given-names: "Emmanuel"
+doi: "10.1101/2025.08.20.671289"
+url: "https://doi.org/10.1101/2025.08.20.671289"
+date-released: "2025-08-20"
+version: "1.0.0"
+type: "article"
