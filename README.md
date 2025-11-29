@@ -159,7 +159,7 @@ For querying METRIN-KG, you can use two methods:
 _Want to generate your own instance of METRIN-KG SPARQL endpoint?_
 
 Follow the instructions on [qlever-control](https://github.com/qlever-dev/qlever-control) and our [fork of qlever-ui](https://github.com/earth-metabolome-initiative/qlever-ui) to install Qlever.
-You can find the [qlever config file](https://github.com/earth-metabolome-initiative/metrin-kg/blob/main/Qlever.metrin_kg) used to index METRIN-KG. The commands inside the file have been adapted for Ubuntu's terminal and Mac's iTerm2 default settings.
+You can find the [qlever config file](https://github.com/earth-metabolome-initiative/metrin-kg/blob/main/Qlever.metrin_kg) used to index METRIN-KG.
 Follow the commands below to generate your own instance of METRIN-KG on localhost.
 
 ```bash
@@ -175,9 +175,11 @@ qlever --qleverfile Qlever.metrin_kg stop
 ```
 
 > _Notes_:
-> 1. The shell commands for `qlever get-data` inside the config file have been adapted for Ubuntu's terminal and Mac's iTerm2 default settings. 
-> 2. `qlever get-data` command will only download the triple (`ttl.gz` or `ttl`) and not the raw data used to generate the triples. For downloading the full METRIN-KG dataset including the raw data and the triples, please refer to [Usage](https://github.com/earth-metabolome-initiative/metrin-kg?tab=readme-ov-file#usage) point-1.
-> 3. For indexing the data (`qlever index`), atleast 31 GB RAM will be required.
+> 1. Note that you will need Docker for running `qlever`. On Linux Docker runs natively and takes up only a small amount of RAM, whereas, on macOS, Docker runs in a virtual machine and thus, takes significant RAM. Therefore, on macOS, `qlever index` may fail sometimes, thus requiring more moemory./home/drishti/.local/bin
+> 2. For indexing the METRIN-KG data (`qlever index`), atleast 31 GB RAM will be required - works on Linux, may require more on macOS.
+> 3. The shell commands for `qlever get-data` inside the config file have been adapted for Ubuntu's terminal and macOS's iTerm2 default settings. 
+> 4. `qlever get-data` command will only download the triple (`ttl.gz` or `ttl`) and not the raw data used to generate the triples. For downloading the full METRIN-KG dataset including the raw data and the triples, please refer to [Usage](https://github.com/earth-metabolome-initiative/metrin-kg?tab=readme-ov-file#usage) point-1.
+
 
 ### b) the [sparql-editor powered endpoint](https://sib-swiss.github.io/sparql-editor/metrin-kg)
 
