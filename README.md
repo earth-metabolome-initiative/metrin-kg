@@ -167,7 +167,9 @@ qlever --qleverfile Qlever.metrin_kg stop
 ```
 
 > _Notes_:
-> `get-data` command of `qlever` will only download the triple (`ttl.gz` or `ttl`) and not the raw data used to generate the triples. For downloading the full METRIN-KG dataset including the raw data and the triples, please download it from [METRIN-KG's Zenodo repository](https://doi.org/10.5281/zenodo.15689186) and also [TRY-db](https://doi.org/10.5281/zenodo.17079464)
+> 1. The shell commands for `qlever get-data` inside the config file have been adapted for Ubuntu's terminal and Mac's iTerm2 default settings. 
+> 2. `qlever get-data` command will only download the triple (`ttl.gz` or `ttl`) and not the raw data used to generate the triples. For downloading the full METRIN-KG dataset including the raw data and the triples, please download it from [METRIN-KG's Zenodo repository](https://doi.org/10.5281/zenodo.15689186) and also [TRY-db](https://doi.org/10.5281/zenodo.17079464)
+> 3. For indexing the data (`qlever index`), atleast 31 GB RAM will be required.
 
 ### b) the [sparql-editor powered endpoint](https://sib-swiss.github.io/sparql-editor/metrin-kg)
 
