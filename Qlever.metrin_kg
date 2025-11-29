@@ -67,6 +67,7 @@ DESCRIPTION       = metrin-kg rdf triples
 INPUT_FILES     = ${data:NAME}/*ttl.gz
 CAT_INPUT_FILES = gunzip -c ${INPUT_FILES}
 SETTINGS_JSON   = { "ascii-prefixes-only": false, "num-triples-per-batch": 100000 }
+STXXL_MEMORY    = 5G
 
 [server]
 PORT               = 7035
@@ -79,6 +80,7 @@ TIMEOUT            = 8000s
 [runtime]
 SYSTEM = docker
 IMAGE  = docker.io/adfreiburg/qlever:latest
+
 
 [ui]
 UI_CONFIG = metrin-kg
