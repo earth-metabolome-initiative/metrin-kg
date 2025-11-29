@@ -54,7 +54,7 @@ pipenv shell
 
 ```bash
 cd metrin-kg
-wget https://zenodo.org/records/15689187/files/metrin-kg.tar.gz?download=1
+wget https://zenodo.org/records/15689186/files/metrin-kg.tar.gz?download=1
 wget https://zenodo.org/records/14640564/files/verbatim-interactions.tsv.gz?download=1
 tar -xvf metrin-kg.tar.gz
 mv metrin-kg-data data
@@ -165,6 +165,9 @@ Once Qlever index is generated and the server started, you can query the endpoin
 ```bash
 qlever --qleverfile Qlever.metrin_kg stop
 ```
+
+> _Notes_:
+> `get-data` command of `qlever` will only download the triple (`ttl.gz` or `ttl`) and not the raw data used to generate the triples. For downloading the full METRIN-KG dataset including the raw data and the triples, please download it from [METRIN-KG's Zenodo repository](https://doi.org/10.5281/zenodo.15689186) and also [TRY-db](https://doi.org/10.5281/zenodo.17079464)
 
 ### b) the [sparql-editor powered endpoint](https://sib-swiss.github.io/sparql-editor/metrin-kg)
 
