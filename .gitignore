@@ -92,7 +92,8 @@ ipython_config.py
 #   However, in case of collaboration, if having platform-specific dependencies or dependencies
 #   having no cross-platform support, pipenv may install dependencies that don't work, or not
 #   install all needed dependencies.
-#Pipfile.lock
+Pipfile
+Pipfile.lock
 
 # UV
 #   Similar to Pipfile.lock, it is generally recommended to include uv.lock in version control.
@@ -172,4 +173,22 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# METRIN-KG ttl and index files
+metrin-kg.index.*
+metrin-kg.voc*
+metrin-kg.internal.*
+metrin-kg.meta-data.json
+metrin-kg.server-log.txt
+metrin-kg.settings.json
+metrin-kg.ui-db.sqlite3
+metrin-kg
+
+
+# temp/log files
 temp/
+checkpoint.txt
+*log.txt
+void*
+example*
+*.stxxl
