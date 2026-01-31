@@ -192,3 +192,9 @@ checkpoint.txt
 void*
 example*
 *.stxxl
+
+# images from case-studies
+case-studies/CS*/*png
+case-studies/CS*/*jpeg
+case-studies/CS*/*tiff
+case-studies/CS*/*html
