@@ -194,7 +194,11 @@ example*
 *.stxxl
 
 # images from case-studies
+case-studies/CS*/*csv
+case-studies/CS*/*tsv
 case-studies/CS*/*png
 case-studies/CS*/*jpeg
 case-studies/CS*/*tiff
 case-studies/CS*/*html
+case-studies/CS*/TODO.md
+
