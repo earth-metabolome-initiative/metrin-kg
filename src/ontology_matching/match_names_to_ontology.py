@@ -43,7 +43,7 @@ def find_best_match(input_term, ontology_terms, ontology_embeddings, model):
     score = similarities[0][best_idx].item()
     return best_label, main_label, uri, score
 
-def run_ontology_match(input_file, output_file):
+def run_ontology_match(input_file, output_file): # e.g. suite
     ontology_paths = {
         "UBERON": "http://purl.obolibrary.org/obo/uberon.owl",
         "PO": "http://purl.obolibrary.org/obo/po.owl",
