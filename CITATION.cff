@@ -1,6 +1,8 @@
 cff-version: 1.2.0
-message: "If you use this work, please cite it as below."
+message: "If you use METRIN-KG, please cite the article below."
 title: "METRIN-KG: A knowledge graph integrating plant metabolites, traits and biotic interactions"
+type: article-journal
+
 authors:
   - family-names: "Tandon"
     given-names: "Disha"
@@ -10,8 +12,26 @@ authors:
     given-names: "Pierre-Marie"
   - family-names: "Defossez"
     given-names: "Emmanuel"
+
+abstract: >
+  METRIN-KG is a knowledge graph integrating plant metabolites,
+  functional traits, and biotic interactions to support
+  biodiversity research, chemical ecology, and data-driven
+  exploration of plant biochemistry.
+
 doi: "10.1101/2025.08.20.671289"
 url: "https://doi.org/10.1101/2025.08.20.671289"
-date-released: "2025-08-20"
+date-released: 2025-08-20
 version: "1.0.0"
-type: "article"
+
+repository-code: "https://github.com/earth-metabolome-initiative/metrin-kg"
+license: "CC-BY-4.0"
+
+keywords:
+  - knowledge graph
+  - plant metabolites
+  - chemical ecology
+  - biodiversity
+  - RDF
+  - semantic web
+  - metabolomics
