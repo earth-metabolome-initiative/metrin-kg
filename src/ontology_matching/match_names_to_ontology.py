@@ -71,4 +71,10 @@ def run_ontology_match(input_file, output_file): # e.g. suite
                 best_label, main_label, uri, score = find_best_match(term, ontology_terms, embeddings, model)
                 writer.writerow([term, best_label, main_label, uri, f"{score:.4f}"])
                 print(f"Processed: {term} -> {best_label} ({score:.4f})")
-
+                
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument('inputFile', type=str, help="Enter the file name with terms to be matched")
+    parser.add_argument('outputFile', type=str, help="Enter the output file name")
+    args = parser.parse_args()
+    run_ontology_match(args.inputFile, args.outputFile)
