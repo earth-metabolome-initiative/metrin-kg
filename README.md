@@ -175,7 +175,7 @@ qlever --qleverfile Qlever.metrin_kg stop
 ```
 
 > _Notes_:
-> 1. Note that you will need Docker for running `qlever`. On Linux Docker runs natively and takes up only a small amount of RAM, whereas, on macOS, Docker runs in a virtual machine and thus, takes significant RAM. Therefore, on macOS, `qlever index` may fail sometimes, thus requiring more moemory./home/drishti/.local/bin
+> 1. Note that you will need Docker for running `qlever`. On Linux Docker runs natively and takes up only a small amount of RAM, whereas, on macOS, Docker runs in a virtual machine and thus, takes significant RAM. Therefore, on macOS, `qlever index` may fail sometimes, thus requiring more memory.
 > 2. For indexing the METRIN-KG data (`qlever index`), atleast 31 GB RAM will be required - works on Linux, may require more on macOS.
 > 3. The shell commands for `qlever get-data` inside the config file have been adapted for Ubuntu's terminal and macOS's iTerm2 default settings. 
 > 4. `qlever get-data` command will only download the triple (`ttl.gz` or `ttl`) and not the raw data used to generate the triples. For downloading the full METRIN-KG dataset including the raw data and the triples, please refer to [Usage](https://github.com/earth-metabolome-initiative/metrin-kg?tab=readme-ov-file#usage) point-1.
