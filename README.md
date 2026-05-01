@@ -205,6 +205,6 @@ For bugs, questions, or contributions, please open an issue or submit a pull req
 
 If you use METRIN-KG in your work, please cite
 
-METRIN-KG: A knowledge graph integrating plant metabolites, traits and biotic interactions
+METRIN-KG: A knowledge graph integrating plant metabolites, traits, and biotic interactions
 Disha Tandon, Tarcisio Mendes De Farias, Pierre-Marie Allard, Emmanuel Defossez
-bioRxiv 2025.08.20.671289; doi: https://doi.org/10.1101/2025.08.20.671289
+GigaScience, 2026;, giag051, ; doi: https://doi.org/10.1093/gigascience/giag051
